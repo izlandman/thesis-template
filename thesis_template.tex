@@ -1,16 +1,18 @@
-% The packages used here are just a sample. You may need others, and may not need some of these. It doesn't hurt to leave them in, unless they start to conflict with other packages you've added. Chapter 2 has example code for equations, figures, tables, citations, abbreviations, etc. If there are sections labeled 'optional' that you don't want, just comment them out. -jg
 \documentclass[reqno,12pt,oneside]{report} %right-side equation numbering, 12 point font, print one-sided
 %\documentclass[reqno,12pt,twoside,openright]{report} %right-side equation numbering, 12 point font, print two-sided, Chapters start on odd pages. Rackham only accepts one-sided, so this is for personal printings.
 \usepackage{algorithm}
 \usepackage[noend]{algorithmic}
-%\usepackage{fancy}
 \usepackage{fancyhdr}
 \usepackage{verbatim}
 \usepackage{mathrsfs}
 \usepackage{url}
-%\usepackage[noend]{algpseudocode}
 \usepackage[cmex10]{amsmath}
 \usepackage{rac}
+% these are specified by Temple, as of Spring 2017 the requirements were
+% 1.5 inch left margin
+% 1 inch right margin
+% 1 inch top margin
+% 1 inch bottom margin
 \usepackage[top=1in, bottom=1in, left=1.5in, right=1in]{geometry}
 %\usepackage{geometry}
 \renewcommand{\theequation}{\thesection-\arabic{equation}}
@@ -21,7 +23,7 @@
 %\usepackage{aas_macros}
 \usepackage{apacite}
 \usepackage{apacdoc}
-  % To allow the reading of ADS journal references in the bibliography
+% To allow the reading of ADS journal references in the bibliography
 %\usepackage[intlimits]{amsmath} % Puts the limits of integrals on top and bottom
 \usepackage{amsxtra}     % Use various AMS packages
 \usepackage{amsthm}
@@ -38,6 +40,7 @@
 \usepackage{setspace}    % Allows you to specify the line spacing
 \doublespacing           % \onehalfspacing for 1.5 spacing, \doublespacing for 2.0 spacing.
 \newcommand{\sun}{\ensuremath{\odot}} % sun symbol is \sun
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Various theorem environments. All of the following have the same numbering
@@ -75,20 +78,6 @@
 
 %\renewcommand{\theenumi}{(\roman{enumi})}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% If printing two-sided, this makes sure that any blank page at the
-% end of a chapter will not have a page number.
-\makeatletter
-\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else
-\hbox{}
-\thispagestyle{empty}
-\newpage
-\if@twocolumn\hbox{}\newpage\fi\fi\fi}
-\makeatother
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 %This command creates a box marked ``To Do'' around text.
 %To use type \todo{  insert text here  }.
 
@@ -99,9 +88,6 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
-
-\bibliographystyle{agu04}    % Set the bibliography style. agu04, plain, alpha, etc.
-
 % Title page as required by Temple University dissertation guidelines
 \titlepage{Snappy Title Goes Here}{the Temple University Graduate Board}{DOCTOR OF PHILOSOPHY}
 {Christian Radcliffe Ward}{April, 2017}
@@ -110,22 +96,14 @@
  Dr. Yimin Zhang, Dept. of Electrical and Computer Engineering \\
  R. ?, Dept. of ? \\
 }
-
 % Begin the front matter as required by Rackham dissertation guidelines
-
 \initializefrontsections
 
-% Optional Frontispiece
-%\frontispiece{\includegraphics[width=4in]{xiali.PNG} a cool picture here.}
+% Optional Frontispiece, don't believe Temple supports this feature
+%  \frontispiece{\includegraphics[width=4in]{xiali.PNG} a cool picture here.}
 
-% Optional, but recommended, Copyright page
-%\copyrightpage{Copyright}{Xiali Hei}
-
-% Page numbering. If you don't include a frontispiece or copyright page, you'll need to change this for two-sided printing.
-\makeatletter
-\if@twoside \setcounter{page}{4} \else \setcounter{page}{2} \fi
-%\setcounter{page}{2}
-\makeatother
+% Optional, but recommended, Copyright page. if included must be labeled as page number ii
+\copyrightpage{Copyright}{Xiali Hei}
 
 % Optional in-dissertation Abstract Page
 \startabstractpage

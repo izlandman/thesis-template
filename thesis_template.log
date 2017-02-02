@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.11.12)  17 JAN 2017 14:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.10)  2 FEB 2017 13:26
 entering extended mode
-**thesis_template.tex
-(thesis_template.tex
+**C:/Users/NIL/Documents/thesis-template/thesis_template.tex
+(C:/Users/NIL/Documents/thesis-template/thesis_template.tex
 LaTeX2e <2015/10/01> patch level 2
-Babel <3.9m> and hyphenation patterns for 69 languages loaded.
+Babel <3.9n> and hyphenation patterns for 69 languages loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
@@ -55,6 +55,7 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \algorithmicindent=\skip44
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \fancy@headwidth=\skip45
 \f@ncyO@elh=\skip46
 \f@ncyO@erh=\skip47
@@ -335,18 +336,20 @@ LaTeX Warning: Label `chap:Particles' multiply defined.
 LaTeX Warning: Label `chap:Particles' multiply defined.
 
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
+\openout1 = `thesis_template.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -402,32 +405,41 @@ LaTeX Info: Redefining \BHBI on input line 130.
 \makeMPintoPDFobject=\count127
 \everyMPtoPDFconversion=\toks36
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 112.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 98.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 112.
+LaTeX Font Info:    Try loading font information for U+msa on input line 98.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 112.
+LaTeX Font Info:    Try loading font information for U+msb on input line 98.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 
  []
 
-[2
+[1
 
-{C:/Users/seadubbs/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+{C:/Users/NIL/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 106.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 106.
+ [2]
 (Abstract/Abstract.tex) [3] (Intro/Acknowledgements.tex) [4] [5]
 (thesis_template.toc
 Overfull \hbox (15.09682pt too wide) in paragraph at lines 15--15
@@ -441,48 +453,23 @@ Overfull \hbox (18.27873pt too wide) in paragraph at lines 27--27
 
 [6])
 \tf@toc=\write4
+\openout4 = `thesis_template.toc'.
+
  [7] (thesis_template.lof)
 \tf@lof=\write5
+\openout5 = `thesis_template.lof'.
+
  [8] (thesis_template.lot)
 \tf@lot=\write6
+\openout6 = `thesis_template.lot'.
+
  [9]
 CHAPTER 1.
-(Intro/Intro.tex
-
-Package natbib Warning: Citation `Globecom' on page 1 undefined on input line 6
-.
-
-
-Package natbib Warning: Citation `Wang' on page 1 undefined on input line 10.
-
-
-Package natbib Warning: Citation `RFIDsecurity' on page 1 undefined on input li
-ne 11.
-
-
-Package natbib Warning: Citation `DoS' on page 1 undefined on input line 11.
-
-
-Package natbib Warning: Citation `DoS1' on page 1 undefined on input line 11.
-
-
-Package natbib Warning: Citation `DHPC' on page 1 undefined on input line 11.
-
-
-Package natbib Warning: Citation `DoS' on page 1 undefined on input line 13.
-
-
-Package natbib Warning: Citation `mote' on page 1 undefined on input line 15.
-
-[1
+(Intro/Intro.tex [1
 
 
 
-]
-
-Package natbib Warning: Citation `Fang' on page 2 undefined on input line 22.
-
-) [2]
+]) [2]
 CHAPTER 2.
 
 ! LaTeX Error: File `Chap2/chapter2.tex' not found.
@@ -557,8 +544,9 @@ Type X to quit or <RETURN> to proceed,
 or enter new name. (Default extension: tex)
 
 Enter file name: 
-No file thesis_template.bbl.
-[9
+(thesis_template.bbl [9
+
+]) [10
 
 ]
 APPENDIX A.
@@ -569,10 +557,7 @@ Type X to quit or <RETURN> to proceed,
 or enter new name. (Default extension: tex)
 
 Enter file name: 
-
-Package natbib Warning: There were undefined citations.
-
-[10
+[11
 
 ] (thesis_template.aux)
 
@@ -580,19 +565,21 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4946 strings out of 493636
- 63331 string characters out of 3143746
- 142642 words of memory out of 3000000
- 8190 multiletter control sequences out of 15000+200000
- 10297 words of font info for 40 fonts, out of 3000000 for 9000
+ 4999 strings out of 493634
+ 64298 string characters out of 3143750
+ 143183 words of memory out of 3000000
+ 8236 multiletter control sequences out of 15000+200000
+ 11250 words of font info for 43 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 27i,6n,43p,522b,217s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,6n,43p,561b,217s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on thesis_template.pdf (18 pages, 61611 bytes).
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on thesis_template.pdf (20 pages, 87206 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
+ 87 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

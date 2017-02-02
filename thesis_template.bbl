@@ -1,0 +1,214 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Halperin%
+, Heydt-Benjamin%
+, Fu%
+, Kohno%
+\BCBL {}\ \BBA {} Maisel%
+}{%
+Halperin%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2008}}%
+}]{%
+DHPC}
+\APACinsertmetastar {%
+DHPC}%
+\begin{APACrefauthors}%
+Halperin, D.%
+, Heydt-Benjamin, T\BPBI S.%
+, Fu, K.%
+, Kohno, T.%
+\BCBL {}\ \BBA {} Maisel, W\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{Jan.-Mar.}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Security and privacy for implantable medical devices}
+  {Security and privacy for implantable medical devices}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Pervasive Computing}{7}{}{30-39}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hei%
+, Du%
+, Wu%
+\BCBL {}\ \BBA {} Hu%
+}{%
+Hei%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2010}}%
+}]{%
+Globecom}
+\APACinsertmetastar {%
+Globecom}%
+\begin{APACrefauthors}%
+Hei, X.%
+, Du, X.%
+, Wu, J.%
+\BCBL {}\ \BBA {} Hu, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Defending Resource Depletion Attacks on Implantable
+  Medical Devices} {Defending resource depletion attacks on implantable medical
+  devices}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proc. of the IEEE Globecom 2010} {Proc. of the ieee
+  globecom 2010}\ (\BPG~1-5).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Juels%
+}{%
+Juels%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+RFIDsecurity}
+\APACinsertmetastar {%
+RFIDsecurity}%
+\begin{APACrefauthors}%
+Juels, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{Feburary}{}.
+\newblock
+{\BBOQ}\APACrefatitle {RFID security and privacy: a research survey} {Rfid
+  security and privacy: a research survey}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE JSAC}{24}{}{381-394}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Malasri%
+\ \BBA {} Wang%
+}{%
+Malasri%
+\ \BBA {} Wang%
+}{%
+{\protect \APACyear {2009}}%
+}]{%
+Wang}
+\APACinsertmetastar {%
+Wang}%
+\begin{APACrefauthors}%
+Malasri, K.%
+\BCBT {}\ \BBA {} Wang, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{July}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Securing wireless implantable devices for healthcare:
+  ideas and challenges} {Securing wireless implantable devices for healthcare:
+  ideas and challenges}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Communications}{47}{}{74-80}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACciteatitle {Mica2 mote sensor}}{%
+\APACciteatitle {Mica2 mote sensor}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+mote}
+\APACinsertmetastar {%
+mote}%
+{\BBOQ}\APACrefatitle {Mica2 mote sensor} {Mica2 mote sensor}.{\BBCQ}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Raymond%
+}{%
+Raymond%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+DoS1}
+\APACinsertmetastar {%
+DoS1}%
+\begin{APACrefauthors}%
+Raymond, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Effects of denial of sleep attacks on wireless sensor
+  network MAC protocols} {Effects of denial of sleep attacks on wireless sensor
+  network mac protocols}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proc. of the 7th Ann. IEEE Systems, Man, and
+  Cybernetics, Information Assurance Workshop} {Proc. of the 7th ann. ieee
+  systems, man, and cybernetics, information assurance workshop}\
+  (\BPG~297-304).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Raymond%
+\ \BBA {} Midkiff%
+}{%
+Raymond%
+\ \BBA {} Midkiff%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+DoS}
+\APACinsertmetastar {%
+DoS}%
+\begin{APACrefauthors}%
+Raymond, D.%
+\BCBT {}\ \BBA {} Midkiff, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{Jan.-Mar.}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Denial-of-service in wireless sensor networks: attacks
+  and defenses} {Denial-of-service in wireless sensor networks: attacks and
+  defenses}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Pervasive Computering}{7}{}{74-81}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sun%
+, Zhu%
+, Zhang%
+\BCBL {}\ \BBA {} Fang%
+}{%
+Sun%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+}]{%
+Fang}
+\APACinsertmetastar {%
+Fang}%
+\begin{APACrefauthors}%
+Sun, J.%
+, Zhu, X.%
+, Zhang, C.%
+\BCBL {}\ \BBA {} Fang, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {HCPP: Cryptography Based Secure EHR System for Patient
+  Privacy and Emergency Healthcare} {Hcpp: Cryptography based secure ehr system
+  for patient privacy and emergency healthcare}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proc. of ICDCS'11} {Proc. of icdcs'11}\ (\BPG~373-382).
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
