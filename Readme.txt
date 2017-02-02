@@ -1,0 +1,1 @@
+%% Run texify thesis_hei.tex, then run dvi2pdf, you can get the pdf file.                                                    %% If you need copyright page, you can insert it in the pdf file. All the formats are approved.--Xiali Hei

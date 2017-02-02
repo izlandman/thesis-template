@@ -1,0 +1,30 @@
+
+Securing IMDs is a very challenging task due
+to their very limiting resource constraints in terms of energy
+supply, processing power, storage space, etc. An IMD is implanted in a patient's body and is expected to operate
+for several months or years. Typical IMDs are powered by a non-rechargeable battery, and replacement of the battery requires surgery. Re-charging an IMD via an external RF electromagnetic source causes thermal effects in body tissues and thus is not recommended. Unlike general medical sensors that may use AA-type or renewable (e.g., solar) batteries, an IMD typically uses silver vanadium oxide batteries and therefore is very vulnerable to the Resource Depletion (RD) attacks
+\cite{Globecom}. The RD attacks include a number of attacks that try
+to consume as much energy as possible, such as Denial of Service
+(DoS) attacks and forced authentication attacks (discussed later).
+These kinds of attacks can be easily launched but are difficult to
+defend against. A number of literatures \cite{Wang},
+\cite{RFIDsecurity}, \cite{DoS}, \cite{DoS1}, \cite{DHPC} have
+studied DoS attacks on wireless sensor networks. Raymond and Midkiff
+\cite{DoS} provide a survey of DoS attacks against sensor networks.
+However, the security schemes designed for sensor networks cannot be
+directly applied to IMDs, because IMDs have much less available resources than typical sensor nodes. For example, a Mica2 mote sensor has 128KB programmable memory and 512K data memory \cite{mote}, while an IMD may have less than 10KB memory. Furthermore, it is much easier to replace the battery for a sensor node than for an IMD. Hence, special light-weight security schemes need to be designed for IMDs. Another
+difference between sensor nodes and IMDs is that an IMD is implanted in a patient's body and directly involves a human (the patient). Hence, effective security schemes for IMDs may utilize the human in their design.
+
+During emergencies, a patient (say Bob) may be unconscious and
+cannot provide his credentials (such as a token or a key) to the
+medical personnel, nor can he show his ID or inform medical
+personnel about his medical information. In addition, neither
+device-based schemes nor family-based schemes \cite{Fang} can be
+used if the patient has an emergency outside his home country. In
+this case, the safety of patients outweighs the security and privacy
+concerns of IMDs. A good access control scheme should satisfy security, privacy and safety requirements.
+
+%In this book, we present related works in Chapter 2, which consists
+%of defense solutions for IMDs in normal situation as well as during emergencies. In Chapter 3, we discuss the Resource Depletion (RD) attacks and a defense scheme based on a patient's IMD access pattern. In Chapter 3, we present a light-weight biometrics based secure access control scheme for IMDs during emergencies. The conclusion and our future directions are given in Chapter 5.
+
+%\input{referenc1}
