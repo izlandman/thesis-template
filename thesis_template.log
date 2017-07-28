@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.22)  26 MAY 2017 16:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.22)  28 JUL 2017 11:30
 entering extended mode
 **C:/Users/NIL/Documents/thesis-template/thesis_template.tex
 (C:/Users/NIL/Documents/thesis-template/thesis_template.tex
@@ -482,16 +482,57 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 108.
  [2] (Abstract/Abstract.tex) [3]
 (Intro/Acknowledgements.tex) [4] [5] (thesis_template.toc
-Overfull \hbox (15.09682pt too wide) in paragraph at lines 15--15
- [][] []\OT1/cmr/bx/n/12 A UNI-FIED SE-CURE FRAME-WORK FOR WIRE-LESS MED- 
+Overfull \hbox (2.37518pt too wide) detected at line 9
+[] \OT1/cmr/bx/n/12 1.  
  []
 
 
-Overfull \hbox (18.27873pt too wide) in paragraph at lines 27--27
- [][] []\OT1/cmr/bx/n/12 BIOMETRICS BASED TWO-LEVEL SE-CURE AC-CESS CON- 
+Overfull \hbox (2.37518pt too wide) detected at line 12
+[] \OT1/cmr/bx/n/12 2.  
  []
 
-[6])
+
+Overfull \hbox (2.37518pt too wide) detected at line 15
+[] \OT1/cmr/bx/n/12 3.  
+ []
+
+
+Overfull \hbox (2.37518pt too wide) detected at line 18
+[] \OT1/cmr/bx/n/12 4.  
+ []
+
+
+Overfull \hbox (2.37518pt too wide) detected at line 21
+[] \OT1/cmr/bx/n/12 5.  
+ []
+
+
+Overfull \hbox (2.37518pt too wide) detected at line 24
+[] \OT1/cmr/bx/n/12 6.  
+ []
+
+
+Overfull \hbox (46.98604pt too wide) in paragraph at lines 24--24
+[][]\OT1/cmr/bx/n/12 PATIENT IN-FU-SION PAT-TERN BASED AC-CESS CON-TROL SCHEMES
+ 
+ []
+
+
+Overfull \hbox (2.37518pt too wide) detected at line 27
+[] \OT1/cmr/bx/n/12 7.  
+ []
+
+
+Overfull \hbox (9.98747pt too wide) in paragraph at lines 27--27
+[][]\OT1/cmr/bx/n/12 BIOMETRICS BASED TWO-LEVEL SE-CURE AC-CESS CON-TROL 
+ []
+
+[6]
+Overfull \hbox (2.37518pt too wide) detected at line 30
+[] \OT1/cmr/bx/n/12 8.  
+ []
+
+)
 \tf@toc=\write4
 \openout4 = `thesis_template.toc'.
 
@@ -605,18 +646,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5353 strings out of 493333
- 69780 string characters out of 3144398
- 153116 words of memory out of 3000000
- 8708 multiletter control sequences out of 15000+200000
+ 5355 strings out of 493333
+ 69819 string characters out of 3144398
+ 153262 words of memory out of 3000000
+ 8710 multiletter control sequences out of 15000+200000
  11250 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,6n,43p,561b,217s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,5n,43p,561b,217s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/LaTex/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/LaTex/MiKTeX/f
 onts/type1/public/amsfonts/cm/cmmi12.pfb><C:/LaTex/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmr12.pfb><C:/LaTex/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 <C:/LaTex/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis_template.pdf (20 pages, 87206 bytes).
+Output written on thesis_template.pdf (20 pages, 87144 bytes).
 PDF statistics:
  87 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

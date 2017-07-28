@@ -18,8 +18,6 @@
 %          margins, title page, frontispiece, bottom-center page numbers,
 %          two-side printing, added in-dissertation abstract and abstract
 %          that prints separately at the end.
-% Modified 2017 by Christian Ward: Update template for use with Temple Uni.
-%			guidelines for publishing a thesis in engineering/science
 
 \typeout{  }
 \typeout{Substyle `rac' for Rackham dissertation.}
@@ -74,7 +72,7 @@
  \end{onehalfspacing}
   
   \vfill
-  A Dissertation Proposal \\
+  A Dissertation \\
   Submitted to \\
   #2\\
   \underline{\hspace{6in}}\\
@@ -114,6 +112,8 @@ of the Requirements for the Degree of \\
 }
 
 \def\copyrightpage#1#2{
+% \pagestyle{chappage}   
+% \ttlpg
  \newpage
  \hbox{ }
  \vertadjust
@@ -122,6 +122,7 @@ of the Requirements for the Degree of \\
   \begin{singlespace}
    \copyright\hspace{0.2in} \\ {#1}\hspace{0.2in} \\ \number\year\\[12pt]
   by \\[12pt]
+%  \vspace{2ex} % ex 
    \underline{\hspace{0.2in}{#2}\hspace{0.2in}}\\
    \vspace{0.1in}All Rights Reserved
   \end{singlespace}
@@ -166,7 +167,7 @@ of the Requirements for the Degree of \\
 \def\producelistoffigures{\listoffigures}
 \def\producelistoftables{\listoftables}
 \def\producelistofmaps{\listofmaps}
-%\def\producelistofappendices{\listofappendices}
+\def\producelistofappendices{\listofappendices}
 \def\producelistofabbreviations{\listofabbreviations}
 
 % jj: The only difference is \dotfill instead of \hfil.
@@ -178,13 +179,14 @@ of the Requirements for the Degree of \\
  \endgroup
 }
 
-\def\l@chap{\@dottedtocline{1}{0.5em}{3.5em}}
-\def\l@section{\@dottedtocline{2}{5.0em}{2.3em}}
-\def\l@subsection{\@dottedtocline{3}{8.3em}{3.2em}}
-\def\l@subsubsection{\@dottedtocline{4}{12.5em}{4.1em}}
+% Edit the values here to control the indents of the TOC
+\def\l@chap{\@dottedtocline{1}{0.0em}{3.5em}}
+\def\l@section{\@dottedtocline{2}{0.5in}{2.3em}}
+\def\l@subsection{\@dottedtocline{3}{1.0in}{3.2em}}
+\def\l@subsubsection{\@dottedtocline{4}{1.5in}{4.1em}}
 
 \setcounter{tocdepth}{3} % Number of section layers to show in TOC (i.e. section, subsection, subsubsection)
-\setcounter{secnumdepth}{3} % Number of subsection layers to allow in document
+\setcounter{secnumdepth}{2} % Number of subsection layers to allow in document
 
 \def\l@figure{\@dottedtocline{1}{1.0em}{3.5em}}
 \let\l@table\l@figure
@@ -200,7 +202,7 @@ of the Requirements for the Degree of \\
  \hbox{ }
  \twoinmar
  \centerline{\large\bf TABLE OF CONTENTS}
- \vspace{0.7in}
+ \vspace{0.25in}
  \begin{singlespace}
   \@starttoc{toc}\if@restonecol\twocolumn\fi
  \end{singlespace} 
@@ -248,19 +250,19 @@ of the Requirements for the Degree of \\
  \end{singlespace}
 }
 
-%\def\listofappendices{%
-% \newpage
- %\addcontentsline{toc}{chapter}{LIST OF APPENDICES}
- %\@restonecolfalse\if@twocolumn\@restonecoltrue\onecolumn\fi
- %\hbox{ }
- %\twoinmar
- %\centerline{\large\bf LIST OF APPENDICES}
- %\vspace{0.7in}
- %\begin{singlespace}
- % \@starttoc{loa}\if@restonecol\twocolumn\fi
- % \addtocontents{loa}{\noindent\underline{\bf Appendix}\hfill\rm\protect\newline}
-% \end{singlespace}
-%}
+\def\listofappendices{%
+ \newpage
+ \addcontentsline{toc}{chapter}{LIST OF APPENDICES}
+ \@restonecolfalse\if@twocolumn\@restonecoltrue\onecolumn\fi
+ \hbox{ }
+ \twoinmar
+ \centerline{\large\bf LIST OF APPENDICES}
+ \vspace{0.7in}
+ \begin{singlespace}
+  \@starttoc{loa}\if@restonecol\twocolumn\fi
+  \addtocontents{loa}{\noindent\underline{\bf Appendix}\hfill\rm\protect\newline}
+ \end{singlespace}
+}
 
 \def\listofabbreviations{% Uses the acronym package -jg
  \newpage
@@ -322,7 +324,7 @@ of the Requirements for the Degree of \\
 
 \def\startthechapters{%
  \def\@chapapp{CHAPTER}
- \addtocontents{toc}{\protect\mbox{ }\protect\newline\noindent{\bf CHAPTER}\protect\newline}
+ \addtocontents{toc}{\protect\mbox{ }\protect\newline\noindent{\bf CHAPTER}}
  \addtocontents{toc}{\hbox{ }}
  \clearpage % This has to be before the rest.  jj
  \if@twoside \ifodd\c@page \else \ttlpg \hbox{ }\fi\fi % For two-sided printing, make sure Chapter I starts on right-hand page. jg
@@ -339,11 +341,11 @@ of the Requirements for the Degree of \\
   \refstepcounter{chapter}
   \typeout{\@chapapp\space\thechapter.}
   \addtocontents{toc}{\hbox{ }}
-  \addcontentsline{toc}{chap}{\protect\numberline{\hbox{ }\hfill\bf\thechapter.\hspace{5pt}}{\bf #1}}
+  \addcontentsline{toc}{chapter}{\protect\numberline{\hbox{ }\hfill\bf\thechapter.\hspace{5pt}}{\bf #1}}
   \addtocontents{toc}{\hbox{ }}
  \else
   \addtocontents{toc}{\hbox{ }}
-  \addcontentsline{toc}{chap}{#1}
+  \addcontentsline{toc}{chapter}{#1}
   \addtocontents{toc}{\hbox{ }}
  \fi
  \if@twocolumn \@topnewpage[\@makechapterhead{#2}]
@@ -414,7 +416,7 @@ of the Requirements for the Degree of \\
  \hbox{}
  \if@twoside \ifodd\c@page \else\thispagestyle{empty} \clearpage\hbox{}\fi\fi
  \thispagestyle{chappage}
- \addcontentsline{toc}{chapter}{APPENDIX A} 
+ \addcontentsline{toc}{chapter}{APPENDICES} 
  %\hbox{ }
  %\vertadjust
  %\vfill
@@ -440,7 +442,6 @@ of the Requirements for the Degree of \\
  \vspace{0.7in}
  \par\@afterindenttrue
 }
-
 \def\endofchapterbibliography{%
  \clearpage
  \hbox{ }

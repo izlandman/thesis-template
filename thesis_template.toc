@@ -3,31 +3,31 @@
 \contentsline {chapter}{DEDICATION}{v}
 \contentsline {chapter}{LIST OF FIGURES}{viii}
 \contentsline {chapter}{LIST OF TABLES}{ix}
-\mbox { }\newline \noindent {\bf CHAPTER}\newline 
+\mbox { }\newline \noindent {\bf CHAPTER}
 \hbox { }
 \hbox { }
-\contentsline {chap}{\numberline {\hbox { }\hfill \bf 1.\hspace {5pt}}{\bf INTRODUCTION}}{1}
+\contentsline {chapter}{\numberline {\hbox { }\hfill \bf 1.\hspace {5pt}}{\bf INTRODUCTION}}{1}
 \hbox { }
 \hbox { }
-\contentsline {chap}{\numberline {\hbox { }\hfill \bf 2.\hspace {5pt}}{\bf LITERATURE REVIEW}}{3}
+\contentsline {chapter}{\numberline {\hbox { }\hfill \bf 2.\hspace {5pt}}{\bf LITERATURE REVIEW}}{3}
 \hbox { }
 \hbox { }
-\contentsline {chap}{\numberline {\hbox { }\hfill \bf 3.\hspace {5pt}}{\bf A UNIFIED SECURE FRAMEWORK FOR WIRELESS MEDICAL DEVICES USING PATIENT'S CELL PHONE}}{4}
+\contentsline {chapter}{\numberline {\hbox { }\hfill \bf 3.\hspace {5pt}}{\bf A UNIFIED SECURE FRAMEWORK FOR WIRELESS MEDICAL DEVICES USING PATIENT'S CELL PHONE}}{4}
 \hbox { }
 \hbox { }
-\contentsline {chap}{\numberline {\hbox { }\hfill \bf 4.\hspace {5pt}}{\bf NEAR FIELD COMMUNICATION BASED ACCESS CONTROL FOR WIRELESS MEDICAL DEVICES}}{5}
+\contentsline {chapter}{\numberline {\hbox { }\hfill \bf 4.\hspace {5pt}}{\bf NEAR FIELD COMMUNICATION BASED ACCESS CONTROL FOR WIRELESS MEDICAL DEVICES}}{5}
 \hbox { }
 \hbox { }
-\contentsline {chap}{\numberline {\hbox { }\hfill \bf 5.\hspace {5pt}}{\bf A PATIENT ACCESS PATTERN BASED ACCESS CONTROL SCHEME}}{6}
+\contentsline {chapter}{\numberline {\hbox { }\hfill \bf 5.\hspace {5pt}}{\bf A PATIENT ACCESS PATTERN BASED ACCESS CONTROL SCHEME}}{6}
 \hbox { }
 \hbox { }
-\contentsline {chap}{\numberline {\hbox { }\hfill \bf 6.\hspace {5pt}}{\bf PATIENT INFUSION PATTERN BASED ACCESS CONTROL SCHEMES FOR WIRELESS INSULIN PUMP SYSTEM}}{7}
+\contentsline {chapter}{\numberline {\hbox { }\hfill \bf 6.\hspace {5pt}}{\bf PATIENT INFUSION PATTERN BASED ACCESS CONTROL SCHEMES FOR WIRELESS INSULIN PUMP SYSTEM}}{7}
 \hbox { }
 \hbox { }
-\contentsline {chap}{\numberline {\hbox { }\hfill \bf 7.\hspace {5pt}}{\bf BIOMETRICS BASED TWO-LEVEL SECURE ACCESS CONTROL FOR IMPLANTABLE MEDICAL DEVICES DURING EMERGENCIES}}{8}
+\contentsline {chapter}{\numberline {\hbox { }\hfill \bf 7.\hspace {5pt}}{\bf BIOMETRICS BASED TWO-LEVEL SECURE ACCESS CONTROL FOR IMPLANTABLE MEDICAL DEVICES DURING EMERGENCIES}}{8}
 \hbox { }
 \hbox { }
-\contentsline {chap}{\numberline {\hbox { }\hfill \bf 8.\hspace {5pt}}{\bf CONCLUSION}}{9}
+\contentsline {chapter}{\numberline {\hbox { }\hfill \bf 8.\hspace {5pt}}{\bf CONCLUSION}}{9}
 \hbox { }
 \contentsline {chapter}{BIBLIOGRAPHY}{9}
-\contentsline {chapter}{APPENDIX A}{10}
+\contentsline {chapter}{APPENDICES}{10}
