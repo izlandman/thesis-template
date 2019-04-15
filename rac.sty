@@ -18,10 +18,55 @@
 %          margins, title page, frontispiece, bottom-center page numbers,
 %          two-side printing, added in-dissertation abstract and abstract
 %          that prints separately at the end.
+% Modified 2017-2018 by Christian Ward
+%			Force compliance with Temple University Dissertation Requirements.
+%			Add inverted pyramid title control.
 
 \typeout{  }
 \typeout{Substyle `rac' for Rackham dissertation.}
 \typeout{  }
+
+%-- command for inverted pyramid title --%
+
+\newlength{\@headingTextWidth}
+\newcommand{\pyramid}[1]%
+{%
+    \leavevmode\vbox{%
+        \hsize=4.5in
+        \parindent=0pt
+        \parfillskip=0pt
+        \emergencystretch=2em
+        %
+        \pretolerance=500
+        \tolerance=1000
+        \hyphenpenalty=10000
+        \linepenalty=0
+        %
+        \settowidth{\@headingTextWidth}{#1}%
+        \ifdim\@headingTextWidth<4.5in%
+            % True case - the heading will be only one line.
+            % Add fils to the [left/right]skips to avoid distracting underful hbox complaints.
+            \leftskip=0pt plus 0.5fil
+            \rightskip=0pt plus 0.5fil
+        \else%
+            % False case - multiline heading.
+            % Match the rubber in the [left/right]skips to the pyramid steps to ensure that each
+            % successive line is shorter than the previous.
+            \leftskip=0pt plus 0.30in
+            \rightskip=0pt plus 0.30in
+        \fi%
+        %
+        \bf\MakeUppercase{#1}%
+        %
+        \parshape=6 % account for a maximum of six lines - thereafter all will have the final width
+            0.00in 4.5in
+            0.25in 4.0in
+            0.50in 3.5in
+            0.75in 3.0in
+            1.00in 2.5in
+            1.25in 2.0in
+    }% \vbox
+}% \centeredHeadingPar
 
 %-- Page styles --
 
@@ -67,30 +112,30 @@
  \twohalfinmar
  \begin{center}
  \begin{onehalfspacing} % For the `Large' font size, this will look single spaced. -jg
-  {\Large\bf #1 \mbox{}} \\
+  {\pyramid{#1} \mbox{}} \\
   \underline{\hspace{6in}}\\ 
  \end{onehalfspacing}
   
-  \vfill
+  \vspace{7.5mm}
   A Dissertation \\
   Submitted to \\
   #2\\
+  \vspace{7.5mm}
   \underline{\hspace{6in}}\\
   
-  \vfill
-in Partial Fulfillment\\
-of the Requirements for the Degree of \\
-   #3 \\ 
+  \vspace{7.5mm}
+  in Partial Fulfillment\\
+  of the Requirements for the Degree \\
+   #3 \\
+  \vspace{7.5mm}
   \underline{\hspace{6in}}\\ 
-   \vfill
+  \vspace{7.5mm}
   by \\
-  \vspace{2ex} % ex is the height of the lowercase 'x' for the current font. -jg
   #4 \\
-  #5 \\
-  \underline{\hspace{6in}}\\   
+  #5 \\  
 
  \end{center}
- \vfill
+ \vspace{10mm}
   Examining Committee Members: \\[2ex]
   \\
   %\mbox{ }\hspace{0in}
@@ -102,6 +147,10 @@ of the Requirements for the Degree of \\
  \setcounter{page}{1}   % -- begins with "ii"
  \pagestyle{chappage}   % -- numbers at bottom
  \renewcommand{\thepage}{\roman{page}}   % roman numeral
+ % add Page header
+ \begin{singlespace}
+	\addtocontents{toc}{~\hfill{Page}\par}
+ \end{singlespace}
 }
 
 \def\frontispiece{
@@ -172,10 +221,13 @@ of the Requirements for the Degree of \\
 
 % jj: The only difference is \dotfill instead of \hfil.
 \def\l@chapter#1#2{\pagebreak[3]
- \vskip 1.0em plus 1pt \@tempdima 1.5em \begingroup % em is the width of capital M for the current font. -jg
+ \vskip 1.0em plus 1pt
+ % em is the width of capital M for the current font. -jg
+ \@tempdima 1.5em 
+ \begingroup 
  \parindent \z@ \rightskip \@pnumwidth
  \parfillskip -\@pnumwidth
- {\bf \leavevmode #1}\dotfill \hbox to\@pnumwidth{\hss #2}\par
+ {\leavevmode #1}\dotfill \hbox to\@pnumwidth{\hss #2}\par
  \endgroup
 }
 
@@ -200,7 +252,8 @@ of the Requirements for the Degree of \\
  \newpage
  \@restonecolfalse\if@twocolumn\@restonecoltrue\onecolumn\fi
  \hbox{ }
- \twoinmar
+ %\twoinmar
+  %\begin{singlespace}
  \centerline{\large\bf TABLE OF CONTENTS}
  \vspace{0.25in}
  \begin{singlespace}
@@ -216,10 +269,10 @@ of the Requirements for the Degree of \\
  \twoinmar
  \centerline{\large\bf LIST OF FIGURES}
  \vspace{0.7in}
- \begin{singlespace}
+ \begin{doublespace}
   \@starttoc{lof}\if@restonecol\twocolumn\fi
   \addtocontents{lof}{\noindent\underline{\bf Figure}\hfill\rm\protect\newline}
- \end{singlespace}
+ \end{doublespace}
 }
 
 \def\listoftables{%
@@ -230,10 +283,10 @@ of the Requirements for the Degree of \\
  \twoinmar
  \centerline{\large\bf LIST OF TABLES}
  \vspace{0.7in}
- \begin{singlespace}
+ \begin{doublespace}
   \@starttoc{lot}\if@restonecol\twocolumn\fi
   \addtocontents{lot}{\noindent\underline{\bf Table}\hfill\rm\protect\newline}
- \end{singlespace}
+ \end{doublespace}
 }
 
 \def\listofmaps{%
@@ -279,7 +332,8 @@ of the Requirements for the Degree of \\
  \end{singlespace} 
 }
 
-\def\startabstractpage#1#2{% This formats the optional in-dissertation abstract - jg
+% update for Temple's Abstract requirement of `Abstract' and double spaced
+\def\startabstractpage{% This formats the optional in-dissertation abstract
  \newpage
  \addcontentsline{toc}{chapter}{ABSTRACT}
  \@restonecolfalse\if@twocolumn\@restonecoltrue\onecolumn\fi
@@ -287,16 +341,6 @@ of the Requirements for the Degree of \\
  \twoinmar
  \centerline{\large\bf ABSTRACT}
  \vspace{0.25in}
- \begin{center}
-  \begin{singlespace}
-   #1 \\
-  \end{singlespace}
-   by \\
-   #2 \\
- \end{center}
- %\vspace{0.4in}
- %\noindent #3
- %\vspace{0.25in}\\
 }
 
 %-- Start chapters --
@@ -324,13 +368,17 @@ of the Requirements for the Degree of \\
 
 \def\startthechapters{%
  \def\@chapapp{CHAPTER}
- \addtocontents{toc}{\protect\mbox{ }\protect\newline\noindent{\bf CHAPTER}}
  \addtocontents{toc}{\hbox{ }}
- \clearpage % This has to be before the rest.  jj
- \if@twoside \ifodd\c@page \else \ttlpg \hbox{ }\fi\fi % For two-sided printing, make sure Chapter I starts on right-hand page. jg
+ \addtocontents{toc}{\protect\mbox{ }\protect\newline\noindent{CHAPTER}}
+ %\addtocontents{toc}{\hbox{ }}
+ % This has to be before the rest.  jj
+ \clearpage 
+ % For two-sided printing, make sure Chapter I starts on right-hand page. jg
+ \if@twoside \ifodd\c@page \else \ttlpg \hbox{ }\fi\fi 
  \clearpage
  \setcounter{chapter}{0}
- \setcounter{page}{1} % -- ...always begin with ii.
+ % -- ...always begin with ii.
+ \setcounter{page}{1} 
  \renewcommand{\thepage}{\arabic{page}}
  \pagestyle{plain}
  \def\tocname{toc}
@@ -341,12 +389,18 @@ of the Requirements for the Degree of \\
   \refstepcounter{chapter}
   \typeout{\@chapapp\space\thechapter.}
   \addtocontents{toc}{\hbox{ }}
-  \addcontentsline{toc}{chapter}{\protect\numberline{\hbox{ }\hfill\bf\thechapter.\hspace{5pt}}{\bf #1}}
-  \addtocontents{toc}{\hbox{ }}
+  \addcontentsline{toc}{chapter}{
+	\protect\numberline{
+		%\hbox{ }
+		%\hfill
+		\thechapter.
+		\hspace{5pt}
+	}{ #1}}
+  %\addtocontents{toc}{\hbox{ }}
  \else
   \addtocontents{toc}{\hbox{ }}
   \addcontentsline{toc}{chapter}{#1}
-  \addtocontents{toc}{\hbox{ }}
+  %\addtocontents{toc}{\hbox{ }}
  \fi
  \if@twocolumn \@topnewpage[\@makechapterhead{#2}]
  \else \@makechapterhead{#2} \@afterheading \fi
@@ -416,8 +470,8 @@ of the Requirements for the Degree of \\
  \hbox{}
  \if@twoside \ifodd\c@page \else\thispagestyle{empty} \clearpage\hbox{}\fi\fi
  \thispagestyle{chappage}
- \addcontentsline{toc}{chapter}{APPENDICES} 
- %\hbox{ }
+ \addtocontents{toc}{\protect\mbox{ }\protect\newline\noindent{APPENDICES}}
+ \addtocontents{toc}{\hbox{ }}
  %\vertadjust
  %\vfill
  %\centerline{\large\bf APPENDICES} % The half title page
@@ -435,11 +489,11 @@ of the Requirements for the Degree of \\
  \hbox{ }
  \twoinmar
  \centerline{\large\bf \@chapapp{} \theappendix} \par
- \vspace{0.3in}
+ \vspace{0.1in}
  \begin{center}
   \Large\bf #1
  \end{center}
- \vspace{0.7in}
+ \vspace{0.1in}
  \par\@afterindenttrue
 }
 \def\endofchapterbibliography{%
@@ -463,7 +517,7 @@ of the Requirements for the Degree of \\
  \vfill
  %\centerline{\large\bf BIBLIOGRAPHY} % The half title page
  \vfill
- \renewcommand{\bibname}{\vspace{-.13in}\centerline{\large\bf BIBLIOGRAPHY}}
+ \renewcommand{\bibname}{\vspace{-1.00in}\centerline{\large\bf BIBLIOGRAPHY}}
 }
 
 \def\thebibliography#1{% If using BibTeX, this code is ignored
