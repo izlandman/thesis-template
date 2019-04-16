@@ -56,7 +56,7 @@
 \renewcommand{\cftafterlottitle}{\hfill}
 
 % TOC Spacing
-\titleformat{\chapter}[hang]{\centering\bf\normalfont}{}{0pt}{\large}
+\titleformat{\chapter}[hang]{\centering\normalfont}{}{0pt}{\large}
 \renewcommand{\thesection}{\thechapter.\arabic{section}}
 \setlength{\cftchapnumwidth}{0pt}
 \renewcommand\thechapter{}
@@ -72,9 +72,11 @@
 \setcounter{tocdepth}{4}
 % indents!
 \cftsetindents{chap}{0em}{1.2em}
-\cftsetindents{sec}{1.5em}{1.7em}
-\cftsetindents{subsec}{3em}{2.5em}
-\cftsetindents{subsubsec}{4.5em}{3.3em}
+\cftsetindents{sec}{0.5in}{1.7em}
+\cftsetindents{subsec}{1.0in}{2.5em}
+\cftsetindents{subsubsec}{1.5in}{3.3em}
+\setlength{\cftfigindent}{0pt}  % remove indentation from figures in lof
+\setlength{\cfttabindent}{0pt}  % remove indentation from tables in lot
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -194,7 +196,7 @@
   \centerline{\large\bf \@chapapp{} \thechapter} \par
   \vskip 0.3in \fi
   \begin{center}
-   \Large\bf #1
+   \large\bf #1
   \end{center}
   \nobreak \vskip 0.7in
  }
@@ -240,6 +242,41 @@
             1.25in 2.0in
     }% \vbox
 }% \centeredHeadingPar
+
+\def\section{
+	\@startsection{section}{1}{\z@}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}{\normalsize}
+}
+
+\def\subsection{
+	\@startsection{subsection}{2}{\z@}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}{\normalsize}
+}
+	
+\def\subsubsection{
+	\@startsection{subsubsection}{3}{\z@}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}{\normalsize}
+}
+
+\long\def\@caption#1[#2]#3{%
+ \addtocontents{\csname ext@#1\endcsname}{\hbox{ }}
+ \addcontentsline{\csname ext@#1\endcsname}{#1}{\protect\numberline{\csname
+  the#1\endcsname}{\ignorespaces\protect\small\protect\normalsize\rm #2}}
+ \par
+ \begingroup
+  \@parboxrestore
+  \@makecaption{\csname fnum@#1\endcsname}{\ignorespaces\protect\small\normalsize\rm #3}
+  \par
+ \endgroup
+}
+
+\long\def\@makecaption#1#2{
+ \vskip 10pt
+ \setbox\@tempboxa\hbox{#1: #2}
+ \ifdim \wd\@tempboxa >\hsize
+  \setbox\@tempboxa\hbox{#1: }
+  \def\@tempdimj{\hsize}
+  \advance\@tempdimj -\wd\@tempboxa
+  \hbox to\hsize{#1: \parbox[t]{\@tempdimj}{#2}}
+ \else \hbox to\hsize{\hfill\box\@tempboxa\hfill}
+ \fi}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % SPECIFIC PAGES
@@ -405,7 +442,7 @@
  \centerline{\large\bf \@chapapp{} \theappendix} \par
  \vspace{0.1in}
  \begin{center}
-  \Large\bf #1
+  \large\bf #1
  \end{center}
  \vspace{0.1in}
  \par\@afterindenttrue
