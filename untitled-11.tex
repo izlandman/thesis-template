@@ -1,17 +1,30 @@
 \documentclass{report}
+\usepackage{tocloft}
 
+\renewcommand{\cftloftitlefont}{\normalsize\bf}
 
 \begin{document}
 
 \clearpage
 \addcontentsline{toc}{chapter}{ABSTRACT}
 \include{abstract}
+\clearpage
+
+\listoffigures
+\clearpage
+
+
 
 \tableofcontents
+
 
 \chapter{One}
 \section{One.One}
 Text
+\subsection{One.One.One.}
+\begin{figure}
+\caption[Figure Zero]{Figure Zero.}
+\end{figure}
 \chapter{Two}
 Text
 \end{document}

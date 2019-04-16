@@ -5,10 +5,10 @@
 % DEPENDENCIES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\RequirePackage{setspace}\onehalfspacing
+\RequirePackage[doublespacing]{setspace}
 \RequirePackage{titlesec, blindtext, color}
 \RequirePackage[nottoc]{tocbibind}
-\RequirePackage[titles]{tocloft}
+\RequirePackage{tocloft}
 \RequirePackage{algorithm}
 \RequirePackage[noend]{algorithmic}
 \RequirePackage{fancyhdr}
@@ -37,20 +37,19 @@
 \renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
 
 % TOC Titles
-\renewcommand{\contentsname}{\hfill\normalfont\normalsize TABLE OF CONTENTS\hfill}   
-\renewcommand{\cftaftertoctitle}{\hfill}
-\renewcommand*\listfigurename{LIST OF FIGURES}
-\renewcommand*\listtablename{LIST OF TABLES}
+\renewcommand{\contentsname}{TABLE OF CONTENTS}
+\renewcommand{\listfigurename}{LIST OF FIGURES}
+\renewcommand{\listtablename}{LIST OF TABLES}
 
-% List Fonts
-\renewcommand\cftloftitlefont{\hspace*{\fill}\normalsize}
-\renewcommand\cftafterloftitle{\hspace*{\fill}}
-\renewcommand\cftlottitlefont{\hspace*{\fill}\normalsize}
-\renewcommand\cftafterlottitle{\hspace*{\fill}}
+\renewcommand{\cfttoctitlefont}{\hfill\normalsize\bf}
+\renewcommand{\cftaftertoctitle}{\hfill\hfill}
+\renewcommand{\cftloftitlefont}{\hfill\normalsize\bf}
+\renewcommand{\cftafterloftitle}{\hfill}
+\renewcommand{\cftlottitlefont}{\hfill\normalsize\bf}
+\renewcommand{\cftafterlottitle}{\hfill}
 
 % TOC Spacing
-\renewcommand{\cfttoctitlefont}{\hfil} 
-\titleformat{\chapter}[hang]{\centering\normalfont\large}{}{0pt}{\large}
+\titleformat{\chapter}[hang]{\centering\bf\normalfont}{}{0pt}{\large}
 \renewcommand{\thesection}{\thechapter.\arabic{section}}
 \setlength{\cftchapnumwidth}{0pt}
 \renewcommand\thechapter{}
@@ -78,7 +77,7 @@
 \def\vertadjust{\vspace{-0.35in}}
 \def\twoinmar{\vertadjust\vspace{0.0in}}
 
-\def\ps@chappage{% The first page of each chapter has bottom-center page numbers -jj.
+\def\ps@chappage{%
 
 %\def{\hfil \rm \thepage \hfil}
 
@@ -89,9 +88,9 @@
 }
 
 \def\ps@plain{%
-% \def\@oddhead{\hfil \rm \thepage \hfil} % These two lines of code make top-center page numbers on other pages -jg
+% \def\@oddhead{\hfil \rm \thepage \hfil} 
 % \def\@oddfoot{}
- \def\@oddhead{} % These two lines of code make bottom-center page numbers on other pages -jg
+ \def\@oddhead{}
  \def\@oddfoot{\hfil \rm \thepage \hfil}
  \let\@evenhead\@oddhead 
  \let\@evenfoot\@oddfoot
@@ -100,7 +99,12 @@
 \def\setupTOC{
 	\pagenumbering{roman}
 	\addtocontents{toc}{\protect\setlength{\cftbeforechapskip}{0em}}
+	% for ToC
 	\addtocontents{toc}{~\hfill{Page}\par}
+	% for LoF
+	\addtocontents{lof}{{Figure}~\hfill{Page}\par}
+	% for LoT
+	\addtocontents{lot}{{Table}~\hfill{Page}\par}
 }
 
 \def\setupChapters{
@@ -125,17 +129,28 @@
 }
 
 \def\@chapter[#1]#2{%
+
+\addtocontents{toc}{\protect\begin{singlespace}}
+
  \ifnum \c@secnumdepth >\m@ne
   \refstepcounter{chapter}
   \typeout{\@chapapp\thechapter.}
+
   \addcontentsline{toc}{chapter}{\protect\numberline{\thechapter.}{#1}}
+
  \else
 
   \addcontentsline{toc}{chapter}{#1}
 
  \fi
  \if@twocolumn \@topnewpage[\@makechapterhead{#2}]
- \else \@makechapterhead{#2} \@afterheading \fi
+ \else
+ 	\@makechapterhead{#2}
+ 	\@afterheading
+ \fi
+
+\addtocontents{toc}{\protect\end{singlespace}}
+
 }
 
 \def\@makechapterhead#1{%

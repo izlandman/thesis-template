@@ -6,11 +6,15 @@
 \contentsline {chapter}{LIST OF FIGURES}{iii}% 
 \contentsline {chapter}{LIST OF TABLES}{iv}% 
 \mbox { }\newline \noindent {CHAPTER}\par 
+\begin {singlespace}
 \contentsline {chapter}{\numberline {1.}{INTRODUCTION}}{1}% 
+\end {singlespace}
 \contentsline {section}{\numberline {1.1}first section}{1}% 
 \contentsline {subsection}{\numberline {1.1.1}first subsection}{1}% 
 \contentsline {subsubsection}{\numberline {1.1.1.1}first subsubsection}{1}% 
 \contentsline {section}{\numberline {1.2}second section }{1}% 
-\contentsline {chapter}{\numberline {2.}{BACKGROUND}}{2}% 
+\begin {singlespace}
+\contentsline {chapter}{\numberline {2.}{BACKGROUND - Or wow this is harder than I thought a week before it is due i hope everyone appreciates this}}{2}% 
+\end {singlespace}
 \contentsline {section}{\numberline {2.1}first section}{2}% 
 \contentsline {section}{\numberline {2.2}second section }{2}% 
