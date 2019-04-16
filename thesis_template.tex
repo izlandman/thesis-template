@@ -10,6 +10,7 @@
 
 % this is style file that is being edited to support adapation toward a Temple style disseration
 \usepackage{rac}
+\usepackage{tocloft}
 % these are specified by Temple, as of Spring 2017 the requirements were
 % 1.5 inch left margin
 % 1 inch right margin
@@ -35,7 +36,7 @@
 \usepackage{rotating}
 \usepackage{color}
 \usepackage{epsfig}
-\usepackage{subfigure}   % To make subfigures. Read subfigure.pdf on ctan.tug.org
+%\usepackage{subfigure}   % To make subfigures. Read subfigure.pdf on ctan.tug.org
 \usepackage{verbatim}
 \usepackage{natbib}      % Allows you to use BibTeX
 \usepackage[printonlyused]{acronym} % For the List of Abbreviations. Read acronym.pdf on ctan.tug.org
@@ -90,6 +91,10 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
+
+% Begin the front matter as required by Rackham dissertation guidelines
+\initializefrontsections
+
 % Title page as required by Temple University dissertation guidelines
 \titlepage{Snappy Title Goes Here}{the Temple University Graduate Board}{DOCTOR OF PHILOSOPHY}
 {Christian Radcliffe Ward}{May / August / December, 20XX}
@@ -99,23 +104,28 @@
  Dr. Member Three, Dept. of Z and X \\
  Dr. Member Four, External Reader, Dept. of Z and X \\
 }
-% Begin the front matter as required by Rackham dissertation guidelines
-\initializefrontsections
+
 
 % Optional Frontispiece, don't believe Temple supports this feature
 %  \frontispiece{\includegraphics[width=4in]{xiali.PNG} a cool picture here.}
 
 % Optional, but recommended, Copyright page. if included must be labeled as page number ii
-\copyrightpage{Copyright}{Xiali Hei}
+\copyrightpage{Copyright}{Your Name}
+
+% Page numbering. If you don't include a frontispiece or copyright page, you'll need to change this for two-sided printing.
+\makeatletter
+\if@twoside \setcounter{page}{2} \else \setcounter{page}{1} \fi
+%\setcounter{page}{2}
+\makeatother
 
 % Optional in-dissertation Abstract Page
 \startabstractpage
-\input{Abstract/Abstract}
+\input{Abstract}
 \label{Abstract}
 
 % Optional Acknowledgements page
 \startacknowledgementspage
-\input{Intro/Acknowledgements}
+\input{Acknowledgements}
 \label{Acknowledgements}
 
 % Optional Dedication page
@@ -132,7 +142,7 @@
 \listoftables        % Required if there is more than one table
 %\listofmaps          % Required if there is more than one map
 %\listofappendices    % Required if there is more than one appendix
-%\listofabbreviations % Optional. Abbreviations should be stored in a file named abbr.tex
+\listofabbreviations % Optional. Abbreviations should be stored in a file named abbr.tex
 
 \startthechapters
 % The individual files for each of the chapters are put here.
@@ -141,36 +151,36 @@
 % thesis.  For instance you can save a file to "intro.tex" and
 % then type \input{intro}.
 \chapter{INTRODUCTION}
- \label{chap:Particles}
- \input{Intro/Intro}
+ \label{chap:1}
+ \input{chapter1}
 
 \chapter{LITERATURE REVIEW}
- \label{chap:Particles}
- \input{Chap2/chapter2}
+ \label{chap:2}
+ \input{chapter2}
 
 \chapter{A UNIFIED SECURE FRAMEWORK FOR WIRELESS MEDICAL DEVICES USING PATIENT'S CELL PHONE}
- \label{chap:Particles}
- \input{Chap3/chapter3}
+ \label{chap:3}
+ \input{chapter3}
 
 \chapter{NEAR FIELD COMMUNICATION BASED ACCESS CONTROL FOR WIRELESS MEDICAL DEVICES}
- \label{chap:Particles}
- \input{Chap4/chapter4}
+ \label{chap:4}
+ \input{chapter4}
 
 \chapter{A PATIENT ACCESS PATTERN BASED ACCESS CONTROL SCHEME}
- \label{chap:Particles}
- \input{Chap5/chapter5}
+ \label{chap:5}
+ \input{chapter5}
 
 \chapter{PATIENT INFUSION PATTERN BASED ACCESS CONTROL SCHEMES FOR WIRELESS INSULIN PUMP SYSTEM}
- \label{chap:Particles}
- \input{Chap6/chapter6}
+ \label{chap:6}
+ \input{chapter6}
 
 \chapter{BIOMETRICS BASED TWO-LEVEL SECURE ACCESS CONTROL FOR IMPLANTABLE MEDICAL DEVICES DURING EMERGENCIES}
- \label{chap:Particles}
- \input{Chap7/chapter7}
+ \label{chap:7}
+ \input{chapter7}
 
 \chapter{CONCLUSION}
- \label{chap:Particles}
- \input{Chap8/chapter8}
+ \label{chap:8}
+ \input{chapter8}
 
 
 \startbibliography
@@ -186,6 +196,6 @@
  \startappendices
  \appendix{Appendix A}
  \label{Carelink USB Driver Decoding}
- \input{Appendices/Appendix1}
+ \input{Appendix1}
 
 \end{document}

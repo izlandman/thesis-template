@@ -1,27 +1,58 @@
-\nobreakspace \hfill {Page}\par 
-\contentsline {chapter}{ABSTRACT}{iii}% 
-\contentsline {chapter}{ACKNOWLEDGEMENTS}{iv}% 
-\contentsline {chapter}{DEDICATION}{v}% 
-\contentsline {chapter}{LIST OF FIGURES}{viii}% 
-\contentsline {chapter}{LIST OF TABLES}{ix}% 
+\setlength {\cftbeforechapskip }{0em}
+\nobreakspace \hfill {Page}
+\contentsline {chapter}{ABSTRACT}{ii}% 
+\contentsline {chapter}{ACKNOWLEDGEMENTS}{iii}% 
+\contentsline {chapter}{DEDICATION}{iv}% 
+\contentsline {chapter}{LIST OF FIGURES}{vii}% 
+\contentsline {chapter}{LIST OF TABLES}{viii}% 
+\contentsline {chapter}{LIST OF ABBREVIATIONS}{ix}% 
 \hbox { }
 \mbox { }\newline \noindent {CHAPTER}
-\hbox { }
-\contentsline {chapter}{ \numberline { 1. \hspace {5pt} }{ INTRODUCTION}}{1}% 
-\hbox { }
-\contentsline {chapter}{ \numberline { 2. \hspace {5pt} }{ LITERATURE REVIEW}}{3}% 
-\hbox { }
-\contentsline {chapter}{ \numberline { 3. \hspace {5pt} }{ A UNIFIED SECURE FRAMEWORK FOR WIRELESS MEDICAL DEVICES USING PATIENT'S CELL PHONE}}{4}% 
-\hbox { }
-\contentsline {chapter}{ \numberline { 4. \hspace {5pt} }{ NEAR FIELD COMMUNICATION BASED ACCESS CONTROL FOR WIRELESS MEDICAL DEVICES}}{5}% 
-\hbox { }
-\contentsline {chapter}{ \numberline { 5. \hspace {5pt} }{ A PATIENT ACCESS PATTERN BASED ACCESS CONTROL SCHEME}}{6}% 
-\hbox { }
-\contentsline {chapter}{ \numberline { 6. \hspace {5pt} }{ PATIENT INFUSION PATTERN BASED ACCESS CONTROL SCHEMES FOR WIRELESS INSULIN PUMP SYSTEM}}{7}% 
-\hbox { }
-\contentsline {chapter}{ \numberline { 7. \hspace {5pt} }{ BIOMETRICS BASED TWO-LEVEL SECURE ACCESS CONTROL FOR IMPLANTABLE MEDICAL DEVICES DURING EMERGENCIES}}{8}% 
-\hbox { }
-\contentsline {chapter}{ \numberline { 8. \hspace {5pt} }{ CONCLUSION}}{9}% 
-\contentsline {chapter}{BIBLIOGRAPHY}{9}% 
+\contentsline {chapter}{ \numberline { . \hspace {5pt} }{ INTRODUCTION}}{1}% 
+\contentsline {section}{\numberline {1.1}Start Here}{1}% 
+\contentsline {subsection}{\numberline {1.1.1}More Here}{1}% 
+\contentsline {subsection}{\numberline {1.1.2}And Again}{1}% 
+\contentsline {section}{\numberline {1.2}Restart!}{1}% 
+\contentsline {chapter}{ \numberline { . \hspace {5pt} }{ LITERATURE REVIEW}}{2}% 
+\contentsline {section}{\numberline {2.1}Start Here}{2}% 
+\contentsline {subsection}{\numberline {2.1.1}More Here}{2}% 
+\contentsline {subsection}{\numberline {2.1.2}And Again}{2}% 
+\contentsline {section}{\numberline {2.2}Restart!}{2}% 
+\contentsline {chapter}{ \numberline { . \hspace {5pt} }{ A UNIFIED SECURE FRAMEWORK FOR WIRELESS MEDICAL DEVICES USING PATIENT'S CELL PHONE}}{3}% 
+\contentsline {section}{\numberline {3.1}Start Here}{3}% 
+\contentsline {subsection}{\numberline {3.1.1}More Here}{3}% 
+\contentsline {subsection}{\numberline {3.1.2}And Again}{3}% 
+\contentsline {section}{\numberline {3.2}Restart!}{3}% 
+\contentsline {chapter}{ \numberline { . \hspace {5pt} }{ NEAR FIELD COMMUNICATION BASED ACCESS CONTROL FOR WIRELESS MEDICAL DEVICES}}{4}% 
+\contentsline {section}{\numberline {4.1}Start Here}{4}% 
+\contentsline {subsection}{\numberline {4.1.1}More Here}{4}% 
+\contentsline {subsection}{\numberline {4.1.2}And Again}{4}% 
+\contentsline {section}{\numberline {4.2}Restart!}{4}% 
+\contentsline {chapter}{ \numberline { . \hspace {5pt} }{ A PATIENT ACCESS PATTERN BASED ACCESS CONTROL SCHEME}}{5}% 
+\contentsline {section}{\numberline {5.1}Start Here}{5}% 
+\contentsline {subsection}{\numberline {5.1.1}More Here}{5}% 
+\contentsline {subsection}{\numberline {5.1.2}And Again}{5}% 
+\contentsline {section}{\numberline {5.2}Restart!}{5}% 
+\contentsline {chapter}{ \numberline { . \hspace {5pt} }{ PATIENT INFUSION PATTERN BASED ACCESS CONTROL SCHEMES FOR WIRELESS INSULIN PUMP SYSTEM}}{6}% 
+\contentsline {section}{\numberline {6.1}Start Here}{6}% 
+\contentsline {subsection}{\numberline {6.1.1}More Here}{6}% 
+\contentsline {subsection}{\numberline {6.1.2}And Again}{6}% 
+\contentsline {section}{\numberline {6.2}Restart!}{6}% 
+\contentsline {chapter}{ \numberline { . \hspace {5pt} }{ BIOMETRICS BASED TWO-LEVEL SECURE ACCESS CONTROL FOR IMPLANTABLE MEDICAL DEVICES DURING EMERGENCIES}}{7}% 
+\contentsline {section}{\numberline {7.1}Start Here}{7}% 
+\contentsline {subsection}{\numberline {7.1.1}More Here}{7}% 
+\contentsline {subsection}{\numberline {7.1.2}And Again}{7}% 
+\contentsline {section}{\numberline {7.2}Restart!}{7}% 
+\contentsline {chapter}{ \numberline { . \hspace {5pt} }{ CONCLUSION}}{8}% 
+\contentsline {section}{\numberline {8.1}Start Here}{8}% 
+\contentsline {subsection}{\numberline {8.1.1}More Here}{8}% 
+\contentsline {subsection}{\numberline {8.1.2}And Again}{8}% 
+\contentsline {section}{\numberline {8.2}Restart!}{8}% 
+\contentsline {chapter}{BIBLIOGRAPHY}{8}% 
+\contentsline {chapter}{\vspace {-1.00in}\hbox to\hsize {\hss \relax \fontsize {14.4}{18}\selectfont \bf BIBLIOGRAPHY\hss }}{9}% 
 \mbox { }\newline \noindent {APPENDICES}
 \hbox { }
+\contentsline {section}{\numberline {A.1}Start Here}{10}% 
+\contentsline {subsection}{\numberline {A.1.1}More Here}{10}% 
+\contentsline {subsection}{\numberline {A.1.2}And Again}{10}% 
+\contentsline {section}{\numberline {A.2}Restart!}{10}% 

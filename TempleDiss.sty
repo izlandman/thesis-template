@@ -1,0 +1,157 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{TempleDiss}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% DEPENDENCIES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\RequirePackage{setspace}\onehalfspacing
+\RequirePackage{titlesec, blindtext, color}
+\RequirePackage[nottoc]{tocbibind}
+\RequirePackage[titles]{tocloft}
+\RequirePackage{algorithm}
+\RequirePackage[noend]{algorithmic}
+\RequirePackage{fancyhdr}
+\RequirePackage{verbatim}
+\RequirePackage{mathrsfs}
+\RequirePackage{url}
+\RequirePackage[cmex10]{amsmath}
+
+% these are specified by Temple, as of Spring 2017 the requirements were
+% 1.5 inch left margin
+% 1 inch right margin
+% 1 inch top margin
+% 1 inch bottom margin
+\RequirePackage[top=1in, bottom=1in, left=1.5in, right=1in, includefoot]{geometry}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% COMMANDS, GENERIC
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% Setup ToC %%%
+
+
+% TOC Dots
+\renewcommand{\cftpartleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+
+% TOC Titles
+\renewcommand{\contentsname}{\hfill\normalfont\normalsize TABLE OF CONTENTS\hfill}   
+\renewcommand{\cftaftertoctitle}{\hfill}
+\renewcommand*\listfigurename{LIST OF FIGURES}
+\renewcommand*\listtablename{LIST OF TABLES}
+
+% List Fonts
+\renewcommand\cftloftitlefont{\hspace*{\fill}\normalsize}
+\renewcommand\cftafterloftitle{\hspace*{\fill}}
+\renewcommand\cftlottitlefont{\hspace*{\fill}\normalsize}
+\renewcommand\cftafterlottitle{\hspace*{\fill}}
+
+% TOC Spacing
+\renewcommand{\cfttoctitlefont}{\hfil} 
+\titleformat{\chapter}[hang]{\centering\normalfont\large}{}{0pt}{\large}
+\renewcommand{\thesection}{\thechapter.\arabic{section}}
+\setlength{\cftchapnumwidth}{0pt}
+\renewcommand\thechapter{}
+\titlespacing{\chapter}{10pt}{0pt}{10pt}
+
+% TOC Font
+\renewcommand{\cftchapfont}{\normalfont}
+\renewcommand{\cftsecfont}{\normalfont}
+\renewcommand{\cftchappagefont}{\normalfont}
+
+% TOC Depth
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+\setlength{\cftchapnumwidth}{1.5em}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% DEFINITIONS, GENERIC
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\def\vertadjust{\vspace{-0.35in}}
+\def\twoinmar{\vertadjust\vspace{0.0in}}
+
+\def\ps@chappage{% The first page of each chapter has bottom-center page numbers -jj.
+
+%\def{\hfil \rm \thepage \hfil}
+
+ \def\@oddhead{}
+ \def\@oddfoot{\hfil \rm \thepage \hfil}
+ \let\@evenhead\@oddhead 
+ \let\@evenfoot\@oddfoot
+}
+
+\def\ps@plain{%
+% \def\@oddhead{\hfil \rm \thepage \hfil} % These two lines of code make top-center page numbers on other pages -jg
+% \def\@oddfoot{}
+ \def\@oddhead{} % These two lines of code make bottom-center page numbers on other pages -jg
+ \def\@oddfoot{\hfil \rm \thepage \hfil}
+ \let\@evenhead\@oddhead 
+ \let\@evenfoot\@oddfoot
+}
+
+\def\setupTOC{
+	\pagenumbering{roman}
+	\addtocontents{toc}{\protect\setlength{\cftbeforechapskip}{0em}}
+	\addtocontents{toc}{~\hfill{Page}\par}
+}
+
+\def\setupChapters{
+	\addtocontents{toc}{\protect\mbox{ }\protect\newline\noindent{CHAPTER}\par}
+	\clearpage
+	 % For two-sided printing, make sure Chapter I starts on right-hand page. jg
+	\if@twoside
+		\ifodd
+			\c@page
+		\else
+			\ttlpg
+			\hbox{ }
+		\fi
+	\fi 
+ 	\clearpage
+	\setcounter{chapter}{0}
+	\setcounter{page}{1}
+	\renewcommand{\thechapter}{\arabic{chapter}}
+ 	\renewcommand{\thepage}{\arabic{page}}
+ 	\pagestyle{plain}
+ 	\def\tocname{toc}
+}
+
+\def\@chapter[#1]#2{%
+ \ifnum \c@secnumdepth >\m@ne
+  \refstepcounter{chapter}
+  \typeout{\@chapapp\space\thechapter.}
+
+  \addcontentsline{toc}{chapter}{
+	\protect\numberline{
+		\hbox{ }
+		\hfill
+		\thechapter.
+		\hspace{5pt}
+	}{ #1}}
+
+ \else
+
+  \addcontentsline{toc}{chapter}{#1}
+
+ \fi
+ \if@twocolumn \@topnewpage[\@makechapterhead{#2}]
+ \else \@makechapterhead{#2} \@afterheading \fi
+}
+
+\def\@makechapterhead#1{%
+ \hbox{ }
+ \twoinmar
+ {\parindent 0pt \raggedright
+  \ifnum \c@secnumdepth >\m@ne
+  \centerline{\large\bf \@chapapp{} \thechapter} \par
+  \vskip 0.3in \fi
+  \begin{center}
+   \Large\bf #1
+  \end{center}
+  \nobreak \vskip 0.7in
+ }
+ \@afterindenttrue
+}

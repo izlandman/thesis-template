@@ -22,6 +22,48 @@
 %			Force compliance with Temple University Dissertation Requirements.
 %			Add inverted pyramid title control.
 
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{rac}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% DEPENDENCIES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage{setspace}\onehalfspacing
+\RequirePackage{titlesec, blindtext, color}
+\RequirePackage[nottoc]{tocbibind}
+\RequirePackage{tocloft}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% COMMANDS, GENERIC
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% Setup ToC %%%
+
+%%% RENAME MAJOR CATEGORIES
+
+\renewcommand{\contentsname}{\hfill\normalfont\normalsize TABLE OF CONTENTS\hfill}   
+\renewcommand{\cftaftertoctitle}{\hfill}
+
+\renewcommand*\listfigurename{LIST OF FIGURES}
+
+\renewcommand*\listtablename{LIST OF TABLES}
+
+%%%%%
+
+\renewcommand{\cftdot}{} % remove dots of table of content
+\renewcommand{\cfttoctitlefont}{\hfil\bf} 
+\titleformat{\chapter}[hang]{\centering\normalfont\large\bfseries}{}{0pt}{\large}
+\renewcommand\thesection{\arabic{section}}
+\setlength{\cftchapnumwidth}{0pt}
+\renewcommand\thechapter{}
+\titlespacing*{\chapter}{10pt}{0pt}{10pt}
+
+%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% OLD COMMANDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \typeout{  }
 \typeout{Substyle `rac' for Rackham dissertation.}
 \typeout{  }
@@ -147,10 +189,10 @@
  \setcounter{page}{1}   % -- begins with "ii"
  \pagestyle{chappage}   % -- numbers at bottom
  \renewcommand{\thepage}{\roman{page}}   % roman numeral
+ % ToC Spacing?
+ \addtocontents{toc}{\protect\setlength{\cftbeforechapskip}{0em}}
  % add Page header
- \begin{singlespace}
-	\addtocontents{toc}{~\hfill{Page}\par}
- \end{singlespace}
+	\addtocontents{toc}{~\hfill{Page}}
 }
 
 \def\frontispiece{
@@ -189,6 +231,7 @@
   #1
  \end{center}
  \vfill
+ \clearpage
 }
 
 \def\startacknowledgementspage{
@@ -249,16 +292,10 @@
 \let\l@abbreviation\l@figure 
 
 \def\tableofcontents{%
+ \clearpage
  \newpage
  \@restonecolfalse\if@twocolumn\@restonecoltrue\onecolumn\fi
- \hbox{ }
- %\twoinmar
-  %\begin{singlespace}
- \centerline{\large\bf TABLE OF CONTENTS}
- \vspace{0.25in}
- \begin{singlespace}
   \@starttoc{toc}\if@restonecol\twocolumn\fi
- \end{singlespace} 
 }
 
 \def\listoffigures{%
@@ -344,7 +381,7 @@
 }
 
 %-- Start chapters --
-\def\thechapter {\@arabic\c@chapter}
+%\def\thechapter {\@arabic\c@chapter}
 %\def\thechapter {\Rome{chapter}}
 
 \def\thesection {\@arabic\c@chapter.\@arabic\c@section}
@@ -388,7 +425,7 @@
  \ifnum \c@secnumdepth >\m@ne
   \refstepcounter{chapter}
   \typeout{\@chapapp\space\thechapter.}
-  \addtocontents{toc}{\hbox{ }}
+  %\addtocontents{toc}{\hbox{ }}
   \addcontentsline{toc}{chapter}{
 	\protect\numberline{
 		%\hbox{ }
@@ -398,7 +435,7 @@
 	}{ #1}}
   %\addtocontents{toc}{\hbox{ }}
  \else
-  \addtocontents{toc}{\hbox{ }}
+  %\addtocontents{toc}{\hbox{ }}
   \addcontentsline{toc}{chapter}{#1}
   %\addtocontents{toc}{\hbox{ }}
  \fi

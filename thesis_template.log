@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.2.28)  15 APR 2019 14:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.2.28)  15 APR 2019 21:30
 entering extended mode
 **C:/Users/seadubbs/Documents/thesis-template/thesis_template.tex
 (C:/Users/seadubbs/Documents/thesis-template/thesis_template.tex
@@ -138,11 +138,111 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
 ) (rac.sty
+Package: rac 
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/setspace\setspace.sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/titlesec\titlesec.sty"
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box31
+\beforetitleunit=\skip57
+\aftertitleunit=\skip58
+\ttl@plus=\dimen112
+\ttl@minus=\dimen113
+\ttl@toksa=\toks25
+\titlewidth=\dimen114
+\titlewidthlast=\dimen115
+\titlewidthfirst=\dimen116
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/blindtext\blindtext.sty"
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/tools\xspace.sty"
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count107
+\c@Blindtext=\count108
+\c@blind@countparstart=\count109
+\blind@countxx=\count110
+\blindtext@numBlindtext=\count111
+\blind@countyy=\count112
+\c@blindlist=\count113
+\c@blindlistlevel=\count114
+\c@blindlist@level=\count115
+\blind@listitem=\count116
+\c@blind@listcount=\count117
+\c@blind@levelcount=\count118
+\blind@mathformula=\count119
+\blind@Mathformula=\count120
+\c@blind@randomcount=\count121
+\c@blind@randommax=\count122
+\c@blind@pangramcount=\count123
+\c@blind@pangrammax=\count124
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\color.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+("C:\Program Files\MiKTeX 2.9\tex/latex/tocbibind\tocbibind.sty"
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/tocloft\tocloft.sty"
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip59
+\cftbeforetoctitleskip=\skip60
+\cftaftertoctitleskip=\skip61
+\cftbeforepartskip=\skip62
+\cftpartnumwidth=\skip63
+\cftpartindent=\skip64
+\cftbeforechapskip=\skip65
+\cftchapindent=\skip66
+\cftchapnumwidth=\skip67
+\cftbeforesecskip=\skip68
+\cftsecindent=\skip69
+\cftsecnumwidth=\skip70
+\cftbeforesubsecskip=\skip71
+\cftsubsecindent=\skip72
+\cftsubsecnumwidth=\skip73
+\cftbeforesubsubsecskip=\skip74
+\cftsubsubsecindent=\skip75
+\cftsubsubsecnumwidth=\skip76
+\cftbeforeparaskip=\skip77
+\cftparaindent=\skip78
+\cftparanumwidth=\skip79
+\cftbeforesubparaskip=\skip80
+\cftsubparaindent=\skip81
+\cftsubparanumwidth=\skip82
+\cftbeforeloftitleskip=\skip83
+\cftafterloftitleskip=\skip84
+\cftbeforefigskip=\skip85
+\cftfigindent=\skip86
+\cftfignumwidth=\skip87
+\c@lofdepth=\count125
+\c@lotdepth=\count126
+\cftbeforelottitleskip=\skip88
+\cftafterlottitleskip=\skip89
+\cftbeforetabskip=\skip90
+\cfttabindent=\skip91
+\cfttabnumwidth=\skip92
+)
  
 Substyle `rac' for Rackham dissertation.
  
-\@headingTextWidth=\skip57
-\c@map=\count107
+\@headingTextWidth=\skip93
+\c@map=\count127
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.sty"
 Package: geometry 2018/04/16 v5.8 Page Geometry
 
@@ -156,37 +256,37 @@ Package ifvtex Info: VTeX not detected.
 ("C:\Program Files\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count108
-\Gm@cntv=\count109
-\c@Gm@tempcnt=\count110
-\Gm@bindingoffset=\dimen112
-\Gm@wd@mp=\dimen113
-\Gm@odd@mp=\dimen114
-\Gm@even@mp=\dimen115
-\Gm@layoutwidth=\dimen116
-\Gm@layoutheight=\dimen117
-\Gm@layouthoffset=\dimen118
-\Gm@layoutvoffset=\dimen119
-\Gm@dimlist=\toks25
+\Gm@cnth=\count128
+\Gm@cntv=\count129
+\c@Gm@tempcnt=\count130
+\Gm@bindingoffset=\dimen117
+\Gm@wd@mp=\dimen118
+\Gm@odd@mp=\dimen119
+\Gm@even@mp=\dimen120
+\Gm@layoutwidth=\dimen121
+\Gm@layoutheight=\dimen122
+\Gm@layouthoffset=\dimen123
+\Gm@layoutvoffset=\dimen124
+\Gm@dimlist=\toks26
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.cfg"))
 ("C:\Program Files\MiKTeX 2.9\tex/latex/tools\array.sty"
 Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
-\col@sep=\dimen120
-\ar@mcellbox=\box31
-\extrarowheight=\dimen121
-\NC@list=\toks26
-\extratabsurround=\skip58
-\backup@length=\skip59
-\ar@cellbox=\box32
+\col@sep=\dimen125
+\ar@mcellbox=\box32
+\extrarowheight=\dimen126
+\NC@list=\toks27
+\extratabsurround=\skip94
+\backup@length=\skip95
+\ar@cellbox=\box33
 ) (apacite.sty
 Package: apacite 2013/07/21 v6.03 APA citation
-\c@BibCnt=\count111
-\bibleftmargin=\skip60
-\bibindent=\skip61
-\bibparsep=\skip62
-\bibitemsep=\skip63
-\biblabelsep=\skip64
+\c@BibCnt=\count131
+\bibleftmargin=\skip96
+\bibindent=\skip97
+\bibparsep=\skip98
+\bibitemsep=\skip99
+\biblabelsep=\skip100
 )
 (apacdoc.sty
 Package: apacdoc 2013/07/21 v6.03 apacite documentation style
@@ -196,15 +296,15 @@ LaTeX Info: Redefining \nobreakspace on input line 54.
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amscls\amsthm.sty"
 Package: amsthm 2017/10/31 v2.20.4
-\thm@style=\toks27
-\thm@bodyfont=\toks28
-\thm@headfont=\toks29
-\thm@notefont=\toks30
-\thm@headpunct=\toks31
-\thm@preskip=\skip65
-\thm@postskip=\skip66
-\thm@headsep=\skip67
-\dth@everypar=\toks32
+\thm@style=\toks28
+\thm@bodyfont=\toks29
+\thm@headfont=\toks30
+\thm@notefont=\toks31
+\thm@headpunct=\toks32
+\thm@preskip=\skip101
+\thm@postskip=\skip102
+\thm@headsep=\skip103
+\dth@everypar=\toks33
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -229,62 +329,31 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
-))
-\Gin@req@height=\dimen122
-\Gin@req@width=\dimen123
+)
+\Gin@req@height=\dimen127
+\Gin@req@width=\dimen128
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\rotating.sty"
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count112
-\rotFPtop=\skip68
-\rotFPbot=\skip69
-\rot@float@box=\box33
-\rot@mess@toks=\toks33
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\color.sty"
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 147.
+\c@r@tfl@t=\count132
+\rotFPtop=\skip104
+\rotFPbot=\skip105
+\rot@float@box=\box34
+\rot@mess@toks=\toks34
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\epsfig.sty"
 Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
-\epsfxsize=\dimen124
-\epsfysize=\dimen125
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/subfigure\subfigure.sty"
-Package: subfigure 2002/07/30 v2.1.4 subfigure package
-\subfigtopskip=\skip70
-\subfigcapskip=\skip71
-\subfigcaptopadj=\dimen126
-\subfigbottomskip=\skip72
-\subfigcapmargin=\dimen127
-\subfiglabelskip=\skip73
-\c@subfigure=\count113
-\c@lofdepth=\count114
-\c@subtable=\count115
-\c@lotdepth=\count116
-
-****************************************
-* Local config file subfigure.cfg used *
-****************************************
-("C:\Program Files\MiKTeX 2.9\tex/latex/subfigure\subfigure.cfg")
-\subfig@top=\skip74
-\subfig@bottom=\skip75
+\epsfxsize=\dimen129
+\epsfysize=\dimen130
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip76
-\bibsep=\skip77
+\bibhang=\skip106
+\bibsep=\skip107
 LaTeX Info: Redefining \cite on input line 694.
 LaTeX Info: Redefining \citeauthor on input line 712.
 LaTeX Info: Redefining \citeyear on input line 735.
-\c@NAT@ctr=\count117
+\c@NAT@ctr=\count133
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/acronym\acronym.sty"
 Package: acronym 2015/03/21 v1.41 Support for acronyms (Tobias Oetiker)
@@ -294,109 +363,44 @@ Package: suffix 2006/07/15 1.5a Variant command support
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/xstring\xstring.sty"
 ("C:\Program Files\MiKTeX 2.9\tex/generic/xstring\xstring.tex"
-\integerpart=\count118
-\decimalpart=\count119
+\integerpart=\count134
+\decimalpart=\count135
 )
 Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 )
-\AC@clearlist=\toks34
+\AC@clearlist=\toks35
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/setspace\setspace.sty"
-Package: setspace 2011/12/19 v6.7a set line spacing
-)
-\c@theorem=\count120
+\c@theorem=\count136
 
-(thesis_template.aux
-
-LaTeX Warning: Label `chap:Particles' multiply defined.
-
-
-LaTeX Warning: Label `chap:Particles' multiply defined.
-
-
-LaTeX Warning: Label `chap:Particles' multiply defined.
-
-
-LaTeX Warning: Label `chap:Particles' multiply defined.
-
-
-LaTeX Warning: Label `chap:Particles' multiply defined.
-
-
-LaTeX Warning: Label `chap:Particles' multiply defined.
-
-
-LaTeX Warning: Label `chap:Particles' multiply defined.
-
-)
+(thesis_template.aux)
 \openout1 = `thesis_template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
 
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: <default>
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: includefoot 
-* h-part:(L,W,R)=(108.405pt, 433.62001pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=433.62001pt
-* \textheight=614.29501pt
-* \oddsidemargin=36.13501pt
-* \evensidemargin=36.13501pt
-* \topmargin=-50.58987pt
-* \headheight=25.29494pt
-* \headsep=25.29494pt
-* \topskip=12.0pt
-* \footskip=36.135pt
-* \marginparwidth=65.04256pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-\c@maskedRefs=\count121
-("C:\Program Files\MiKTeX 2.9\tex/latex/apacite\english.apc"
-File: english.apc 2013/07/21 v6.03 apacite language file
-LaTeX Info: Redefining \BPBI on input line 129.
-LaTeX Info: Redefining \BHBI on input line 130.
-)
 ("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count122
-\scratchdimen=\dimen128
-\scratchbox=\box34
-\nofMPsegments=\count123
-\nofMParguments=\count124
-\everyMPshowfont=\toks35
-\MPscratchCnt=\count125
-\MPscratchDim=\dimen129
-\MPnumerator=\count126
-\makeMPintoPDFobject=\count127
-\everyMPtoPDFconversion=\toks36
+\scratchcounter=\count137
+\scratchdimen=\dimen131
+\scratchbox=\box35
+\nofMPsegments=\count138
+\nofMParguments=\count139
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count140
+\MPscratchDim=\dimen132
+\MPnumerator=\count141
+\makeMPintoPDFobject=\count142
+\everyMPtoPDFconversion=\toks37
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -440,210 +444,201 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 101.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includefoot 
+* h-part:(L,W,R)=(108.405pt, 433.62001pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=433.62001pt
+* \textheight=614.29501pt
+* \oddsidemargin=36.13501pt
+* \evensidemargin=36.13501pt
+* \topmargin=-50.58987pt
+* \headheight=25.29494pt
+* \headsep=25.29494pt
+* \topskip=12.0pt
+* \footskip=36.135pt
+* \marginparwidth=65.04256pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@maskedRefs=\count143
+("C:\Program Files\MiKTeX 2.9\tex/latex/apacite\english.apc"
+File: english.apc 2013/07/21 v6.03 apacite language file
+LaTeX Info: Redefining \BPBI on input line 129.
+LaTeX Info: Redefining \BHBI on input line 130.
+)
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 106.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 101.
+LaTeX Font Info:    Try loading font information for U+msa on input line 106.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 101.
+LaTeX Font Info:    Try loading font information for U+msb on input line 106.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
 
  []
 
-[1
+[0
 
 {C:/Users/seadubbs/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 109.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 113.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 109.
- [2]
-(Abstract/Abstract.tex) [3] (Intro/Acknowledgements.tex) [4] [5]
-(thesis_template.toc
-Overfull \hbox (8.69904pt too wide) detected at line 10
- \OT1/cmr/m/n/12 1.    
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 113.
+ [1] (Abstract.tex)
+[2] (Acknowledgements.tex) [3] [4] (thesis_template.toc
+Overfull \hbox (2.8241pt too wide) detected at line 11
+ \OT1/cmr/m/n/12 .    
  []
 
 
-Overfull \hbox (8.69904pt too wide) detected at line 12
- \OT1/cmr/m/n/12 2.    
+Overfull \hbox (2.8241pt too wide) detected at line 16
+ \OT1/cmr/m/n/12 .    
  []
 
-
-Overfull \hbox (8.69904pt too wide) detected at line 14
- \OT1/cmr/m/n/12 3.    
- []
-
-
-Overfull \hbox (8.69904pt too wide) detected at line 16
- \OT1/cmr/m/n/12 4.    
- []
-
-
-Overfull \hbox (8.69904pt too wide) detected at line 18
- \OT1/cmr/m/n/12 5.    
- []
-
-
-Overfull \hbox (8.69904pt too wide) detected at line 20
- \OT1/cmr/m/n/12 6.    
- []
-
-
-Overfull \hbox (8.69904pt too wide) detected at line 22
- \OT1/cmr/m/n/12 7.    
- []
-
-
-Overfull \hbox (8.69904pt too wide) detected at line 24
- \OT1/cmr/m/n/12 8.    
- []
-
-[6])
-\tf@toc=\write3
-\openout3 = `thesis_template.toc'.
-
- [7] (thesis_template.lof)
-\tf@lof=\write4
-\openout4 = `thesis_template.lof'.
-
- [8] (thesis_template.lot)
-\tf@lot=\write5
-\openout5 = `thesis_template.lot'.
-
- [9]
-CHAPTER 1.
-(Intro/Intro.tex [1
-
-
-
-]) [2]
-CHAPTER 2.
-
-! LaTeX Error: File `Chap2/chapter2.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-[3
-
-]
-CHAPTER 3.
-
-! LaTeX Error: File `Chap3/chapter3.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-[4
-
-]
-CHAPTER 4.
-
-! LaTeX Error: File `Chap4/chapter4.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
 [5
 
 ]
-CHAPTER 5.
+Overfull \hbox (2.8241pt too wide) detected at line 21
+ \OT1/cmr/m/n/12 .    
+ []
 
-! LaTeX Error: File `Chap5/chapter5.tex' not found.
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
+Overfull \hbox (2.8241pt too wide) detected at line 26
+ \OT1/cmr/m/n/12 .    
+ []
 
-Enter file name: 
-[6
+
+Overfull \hbox (2.8241pt too wide) detected at line 31
+ \OT1/cmr/m/n/12 .    
+ []
+
+
+Overfull \hbox (2.8241pt too wide) detected at line 36
+ \OT1/cmr/m/n/12 .    
+ []
+
+[6]
+Overfull \hbox (2.8241pt too wide) detected at line 41
+ \OT1/cmr/m/n/12 .    
+ []
+
+
+Overfull \hbox (2.8241pt too wide) detected at line 46
+ \OT1/cmr/m/n/12 .    
+ []
+
+
+Overfull \hbox (18.21234pt too wide) in paragraph at lines 52--52
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+[]  
+ []
+
+)
+\tf@toc=\write3
+\openout3 = `thesis_template.toc'.
+
+ (thesis_template.lof)
+\tf@lof=\write4
+\openout4 = `thesis_template.lof'.
+
+ (thesis_template.lot)
+\tf@lot=\write5
+\openout5 = `thesis_template.lot'.
+
+ [7] [8] (abbr.tex) [9]
+CHAPTER .
+(chapter1.tex) [1
+
+
 
 ]
-CHAPTER 6.
-
-! LaTeX Error: File `Chap6/chapter6.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-[7
+CHAPTER .
+(chapter2.tex) [2
 
 ]
-CHAPTER 7.
-
-! LaTeX Error: File `Chap7/chapter7.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-[8
+CHAPTER .
+(chapter3.tex) [3
 
 ]
-CHAPTER 8.
+CHAPTER .
+(chapter4.tex) [4
 
-! LaTeX Error: File `Chap8/chapter8.tex' not found.
+]
+CHAPTER .
+(chapter5.tex) [5
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
+]
+CHAPTER .
+(chapter6.tex) [6
 
-Enter file name: 
-(thesis_template.bbl [9
+]
+CHAPTER .
+(chapter7.tex) [7
 
-]) [10
+]
+CHAPTER .
+(chapter8.tex) (thesis_template.bbl [8
+
+]) [9
 
 ]
 APPENDIX A.
+(Appendix1.tex) [10
 
-! LaTeX Error: File `Appendices/Appendix1.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-[11
-
-] (thesis_template.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+] (thesis_template.aux) ) 
 Here is how much of TeX's memory you used:
- 5326 strings out of 492946
- 70830 string characters out of 3135518
- 157340 words of memory out of 3000000
- 9045 multiletter control sequences out of 15000+200000
+ 5964 strings out of 492946
+ 80328 string characters out of 3135518
+ 170752 words of memory out of 3000000
+ 9663 multiletter control sequences out of 15000+200000
  11250 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,5n,43p,566b,217s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis_template.pdf (20 pages, 85841 bytes).
+ 41i,6n,43p,368b,218s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+mi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on thesis_template.pdf (20 pages, 84760 bytes).
 PDF statistics:
  87 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

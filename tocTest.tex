@@ -1,0 +1,50 @@
+\documentclass[12pt,english]{report}
+\usepackage{TempleDiss}
+
+\begin{document}
+
+\setupTOC
+
+\addcontentsline{toc}{chapter}{AUTHOR'S  DECLARATION}
+
+\clearpage
+\addcontentsline{toc}{chapter}{ABSTRACT}
+\include{abstract}
+\clearpage
+\chapter*{ACKNOWLEDGEMENTS}%
+\addcontentsline{toc}{chapter}{ACKNOWLEDGEMENTS}
+
+\clearpage
+\tableofcontents
+
+\clearpage
+\listoffigures
+\listoftables
+
+\clearpage
+
+\setupChapters
+
+\chapter{INTRODUCTION}
+\pagenumbering{arabic}
+So glad we made it this far!
+\section{first section}
+This is section one in chapter one.
+\subsection{first subsection}
+Deeper into the woods!
+\subsubsection{first subsubsection}
+Deeper still!
+\section{second section }
+This is section two  in chapter one.
+
+\chapter{BACKGROUND}
+\section{first section}
+This is section one in chapter TWO.
+\begin{figure}
+\caption[Figure One]{Figure One}
+\end{figure}
+\section{second section }
+This is section two  in chapter TWO.
+
+
+\end{document}
