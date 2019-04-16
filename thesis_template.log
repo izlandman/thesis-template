@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.2.28)  15 APR 2019 21:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.2.28)  16 APR 2019 14:54
 entering extended mode
 **C:/Users/seadubbs/Documents/thesis-template/thesis_template.tex
 (C:/Users/seadubbs/Documents/thesis-template/thesis_template.tex
@@ -20,140 +20,23 @@ File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/algorithms\algorithm.sty"
-Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
-nment
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/float\float.sty"
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count89
-\float@exts=\toks14
-\float@box=\box27
-\@float@everytoks=\toks15
-\@floatcapt=\box28
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\ifthen.sty"
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-\@float@every@algorithm=\toks16
-\c@algorithm=\count90
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/algorithms\algorithmic.sty"
-Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks17
-)
-\c@ALC@unique=\count91
-\c@ALC@line=\count92
-\c@ALC@rem=\count93
-\c@ALC@depth=\count94
-\ALC@tlm=\skip43
-\algorithmicindent=\skip44
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.sty"
-Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
-s
-\f@nch@headwidth=\skip45
-\f@nch@O@elh=\skip46
-\f@nch@O@erh=\skip47
-\f@nch@O@olh=\skip48
-\f@nch@O@orh=\skip49
-\f@nch@O@elf=\skip50
-\f@nch@O@erf=\skip51
-\f@nch@O@olf=\skip52
-\f@nch@O@orf=\skip53
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/tools\verbatim.sty"
-Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks18
-\verbatim@line=\toks19
-\verbatim@in@stream=\read1
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/jknappen\mathrsfs.sty"
-Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
-\symrsfs=\mathgroup4
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/url\url.sty"
-\Urlmuskip=\muskip10
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
-Package: amsmath 2018/12/01 v2.17b AMS math features
-\@mathmargin=\skip54
-
-For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
-Package: amstext 2000/06/29 v2.01 AMS text
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks20
-\ex@=\dimen103
-))
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen104
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
-Package: amsopn 2016/03/08 v2.02 operator names
-)
-\inf@bad=\count95
-LaTeX Info: Redefining \frac on input line 223.
-\uproot@=\count96
-\leftroot@=\count97
-LaTeX Info: Redefining \overline on input line 385.
-\classnum@=\count98
-\DOTSCASE@=\count99
-LaTeX Info: Redefining \ldots on input line 482.
-LaTeX Info: Redefining \dots on input line 485.
-LaTeX Info: Redefining \cdots on input line 606.
-\Mathstrutbox@=\box29
-\strutbox@=\box30
-\big@size=\dimen105
-LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
-\macc@depth=\count100
-\c@MaxMatrixCols=\count101
-\dotsspace@=\muskip11
-\c@parentequation=\count102
-\dspbrk@lvl=\count103
-\tag@help=\toks21
-\row@=\count104
-\column@=\count105
-\maxfields@=\count106
-\andhelp@=\toks22
-\eqnshift@=\dimen106
-\alignsep@=\dimen107
-\tagshift@=\dimen108
-\tagwidth@=\dimen109
-\totwidth@=\dimen110
-\lineht@=\dimen111
-\@envbody=\toks23
-\multlinegap=\skip55
-\multlinetaggap=\skip56
-\mathdisplay@stack=\toks24
-LaTeX Info: Redefining \[ on input line 2844.
-LaTeX Info: Redefining \] on input line 2845.
-) (rac.sty
-Package: rac 
+) (TempleDiss.sty
+Package: TempleDiss 
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/titlesec\titlesec.sty"
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box31
-\beforetitleunit=\skip57
-\aftertitleunit=\skip58
-\ttl@plus=\dimen112
-\ttl@minus=\dimen113
-\ttl@toksa=\toks25
-\titlewidth=\dimen114
-\titlewidthlast=\dimen115
-\titlewidthfirst=\dimen116
+\ttl@box=\box27
+\beforetitleunit=\skip43
+\aftertitleunit=\skip44
+\ttl@plus=\dimen103
+\ttl@minus=\dimen104
+\ttl@toksa=\toks14
+\titlewidth=\dimen105
+\titlewidthlast=\dimen106
+\titlewidthfirst=\dimen107
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/blindtext\blindtext.sty"
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
@@ -161,24 +44,24 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
 ("C:\Program Files\MiKTeX 2.9\tex/latex/tools\xspace.sty"
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count107
-\c@Blindtext=\count108
-\c@blind@countparstart=\count109
-\blind@countxx=\count110
-\blindtext@numBlindtext=\count111
-\blind@countyy=\count112
-\c@blindlist=\count113
-\c@blindlistlevel=\count114
-\c@blindlist@level=\count115
-\blind@listitem=\count116
-\c@blind@listcount=\count117
-\c@blind@levelcount=\count118
-\blind@mathformula=\count119
-\blind@Mathformula=\count120
-\c@blind@randomcount=\count121
-\c@blind@randommax=\count122
-\c@blind@pangramcount=\count123
-\c@blind@pangrammax=\count124
+\c@blindtext=\count89
+\c@Blindtext=\count90
+\c@blind@countparstart=\count91
+\blind@countxx=\count92
+\blindtext@numBlindtext=\count93
+\blind@countyy=\count94
+\c@blindlist=\count95
+\c@blindlistlevel=\count96
+\c@blindlist@level=\count97
+\blind@listitem=\count98
+\c@blind@listcount=\count99
+\c@blind@levelcount=\count100
+\blind@mathformula=\count101
+\blind@Mathformula=\count102
+\c@blind@randomcount=\count103
+\c@blind@randommax=\count104
+\c@blind@pangramcount=\count105
+\c@blind@pangrammax=\count106
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\color.sty"
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
@@ -201,49 +84,180 @@ Package tocbibind Note: Using chapter style headings, unless overridden.
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/tocloft\tocloft.sty"
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
-\cftparskip=\skip59
-\cftbeforetoctitleskip=\skip60
-\cftaftertoctitleskip=\skip61
-\cftbeforepartskip=\skip62
-\cftpartnumwidth=\skip63
-\cftpartindent=\skip64
-\cftbeforechapskip=\skip65
-\cftchapindent=\skip66
-\cftchapnumwidth=\skip67
-\cftbeforesecskip=\skip68
-\cftsecindent=\skip69
-\cftsecnumwidth=\skip70
-\cftbeforesubsecskip=\skip71
-\cftsubsecindent=\skip72
-\cftsubsecnumwidth=\skip73
-\cftbeforesubsubsecskip=\skip74
-\cftsubsubsecindent=\skip75
-\cftsubsubsecnumwidth=\skip76
-\cftbeforeparaskip=\skip77
-\cftparaindent=\skip78
-\cftparanumwidth=\skip79
-\cftbeforesubparaskip=\skip80
-\cftsubparaindent=\skip81
-\cftsubparanumwidth=\skip82
-\cftbeforeloftitleskip=\skip83
-\cftafterloftitleskip=\skip84
-\cftbeforefigskip=\skip85
-\cftfigindent=\skip86
-\cftfignumwidth=\skip87
-\c@lofdepth=\count125
-\c@lotdepth=\count126
-\cftbeforelottitleskip=\skip88
-\cftafterlottitleskip=\skip89
-\cftbeforetabskip=\skip90
-\cfttabindent=\skip91
-\cfttabnumwidth=\skip92
+\cftparskip=\skip45
+\cftbeforetoctitleskip=\skip46
+\cftaftertoctitleskip=\skip47
+\cftbeforepartskip=\skip48
+\cftpartnumwidth=\skip49
+\cftpartindent=\skip50
+\cftbeforechapskip=\skip51
+\cftchapindent=\skip52
+\cftchapnumwidth=\skip53
+\cftbeforesecskip=\skip54
+\cftsecindent=\skip55
+\cftsecnumwidth=\skip56
+\cftbeforesubsecskip=\skip57
+\cftsubsecindent=\skip58
+\cftsubsecnumwidth=\skip59
+\cftbeforesubsubsecskip=\skip60
+\cftsubsubsecindent=\skip61
+\cftsubsubsecnumwidth=\skip62
+\cftbeforeparaskip=\skip63
+\cftparaindent=\skip64
+\cftparanumwidth=\skip65
+\cftbeforesubparaskip=\skip66
+\cftsubparaindent=\skip67
+\cftsubparanumwidth=\skip68
+\cftbeforeloftitleskip=\skip69
+\cftafterloftitleskip=\skip70
+\cftbeforefigskip=\skip71
+\cftfigindent=\skip72
+\cftfignumwidth=\skip73
+\c@lofdepth=\count107
+\c@lotdepth=\count108
+\cftbeforelottitleskip=\skip74
+\cftafterlottitleskip=\skip75
+\cftbeforetabskip=\skip76
+\cfttabindent=\skip77
+\cfttabnumwidth=\skip78
 )
- 
-Substyle `rac' for Rackham dissertation.
- 
-\@headingTextWidth=\skip93
-\c@map=\count127
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/algorithms\algorithm.sty"
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count109
+\float@exts=\toks15
+\float@box=\box28
+\@float@everytoks=\toks16
+\@floatcapt=\box29
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks17
+\c@algorithm=\count110
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/algorithms\algorithmic.sty"
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+\c@ALC@unique=\count111
+\c@ALC@line=\count112
+\c@ALC@rem=\count113
+\c@ALC@depth=\count114
+\ALC@tlm=\skip79
+\algorithmicindent=\skip80
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip81
+\f@nch@O@elh=\skip82
+\f@nch@O@erh=\skip83
+\f@nch@O@olh=\skip84
+\f@nch@O@orh=\skip85
+\f@nch@O@elf=\skip86
+\f@nch@O@erf=\skip87
+\f@nch@O@olf=\skip88
+\f@nch@O@orf=\skip89
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/tools\verbatim.sty"
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks19
+\verbatim@line=\toks20
+\verbatim@in@stream=\read1
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/jknappen\mathrsfs.sty"
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup4
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip90
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks21
+\ex@=\dimen108
+))
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen109
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count115
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count116
+\leftroot@=\count117
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count118
+\DOTSCASE@=\count119
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen110
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count120
+\c@MaxMatrixCols=\count121
+\dotsspace@=\muskip11
+\c@parentequation=\count122
+\dspbrk@lvl=\count123
+\tag@help=\toks22
+\row@=\count124
+\column@=\count125
+\maxfields@=\count126
+\andhelp@=\toks23
+\eqnshift@=\dimen111
+\alignsep@=\dimen112
+\tagshift@=\dimen113
+\tagwidth@=\dimen114
+\totwidth@=\dimen115
+\lineht@=\dimen116
+\@envbody=\toks24
+\multlinegap=\skip91
+\multlinetaggap=\skip92
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+) (apacite.sty
+Package: apacite 2013/07/21 v6.03 APA citation
+\c@BibCnt=\count127
+\bibleftmargin=\skip93
+\bibindent=\skip94
+\bibparsep=\skip95
+\bibitemsep=\skip96
+\biblabelsep=\skip97
+)
+(apacdoc.sty
+Package: apacdoc 2013/07/21 v6.03 apacite documentation style
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/natbib\natbib.sty"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip98
+\bibsep=\skip99
+LaTeX Info: Redefining \cite on input line 694.
+LaTeX Info: Redefining \citeauthor on input line 712.
+LaTeX Info: Redefining \citeyear on input line 735.
+\c@NAT@ctr=\count128
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.sty"
 Package: geometry 2018/04/16 v5.8 Page Geometry
 
 ("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.sty"
@@ -256,9 +270,9 @@ Package ifvtex Info: VTeX not detected.
 ("C:\Program Files\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count128
-\Gm@cntv=\count129
-\c@Gm@tempcnt=\count130
+\Gm@cnth=\count129
+\Gm@cntv=\count130
+\c@Gm@tempcnt=\count131
 \Gm@bindingoffset=\dimen117
 \Gm@wd@mp=\dimen118
 \Gm@odd@mp=\dimen119
@@ -270,27 +284,19 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks26
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.cfg"))
+\@headingTextWidth=\skip100
+)
 ("C:\Program Files\MiKTeX 2.9\tex/latex/tools\array.sty"
 Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \col@sep=\dimen125
 \ar@mcellbox=\box32
 \extrarowheight=\dimen126
 \NC@list=\toks27
-\extratabsurround=\skip94
-\backup@length=\skip95
+\extratabsurround=\skip101
+\backup@length=\skip102
 \ar@cellbox=\box33
-) (apacite.sty
-Package: apacite 2013/07/21 v6.03 APA citation
-\c@BibCnt=\count131
-\bibleftmargin=\skip96
-\bibindent=\skip97
-\bibparsep=\skip98
-\bibitemsep=\skip99
-\biblabelsep=\skip100
 )
-(apacdoc.sty
-Package: apacdoc 2013/07/21 v6.03 apacite documentation style
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsxtra.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsxtra.sty"
 Package: amsxtra 1999/11/15 v1.2c AMS extra commands
 LaTeX Info: Redefining \nobreakspace on input line 54.
 )
@@ -301,9 +307,9 @@ Package: amsthm 2017/10/31 v2.20.4
 \thm@headfont=\toks30
 \thm@notefont=\toks31
 \thm@headpunct=\toks32
-\thm@preskip=\skip101
-\thm@postskip=\skip102
-\thm@headsep=\skip103
+\thm@preskip=\skip103
+\thm@postskip=\skip104
+\thm@headsep=\skip105
 \dth@everypar=\toks33
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amssymb.sty"
@@ -336,8 +342,8 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\rotating.sty"
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 \c@r@tfl@t=\count132
-\rotFPtop=\skip104
-\rotFPbot=\skip105
+\rotFPtop=\skip106
+\rotFPbot=\skip107
 \rot@float@box=\box34
 \rot@mess@toks=\toks34
 )
@@ -345,15 +351,6 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
 \epsfxsize=\dimen129
 \epsfysize=\dimen130
-)
-("C:\Program Files\MiKTeX 2.9\tex/latex/natbib\natbib.sty"
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip106
-\bibsep=\skip107
-LaTeX Info: Redefining \cite on input line 694.
-LaTeX Info: Redefining \citeauthor on input line 712.
-LaTeX Info: Redefining \citeyear on input line 735.
-\c@NAT@ctr=\count133
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/acronym\acronym.sty"
 Package: acronym 2015/03/21 v1.41 Support for acronyms (Tobias Oetiker)
@@ -363,43 +360,41 @@ Package: suffix 2006/07/15 1.5a Variant command support
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/xstring\xstring.sty"
 ("C:\Program Files\MiKTeX 2.9\tex/generic/xstring\xstring.tex"
-\integerpart=\count134
-\decimalpart=\count135
+\integerpart=\count133
+\decimalpart=\count134
 )
 Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 )
 \AC@clearlist=\toks35
 )
-\c@theorem=\count136
-
 (thesis_template.aux)
 \openout1 = `thesis_template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
 
 ("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count137
+\scratchcounter=\count135
 \scratchdimen=\dimen131
 \scratchbox=\box35
-\nofMPsegments=\count138
-\nofMParguments=\count139
+\nofMPsegments=\count136
+\nofMParguments=\count137
 \everyMPshowfont=\toks36
-\MPscratchCnt=\count140
+\MPscratchCnt=\count138
 \MPscratchDim=\dimen132
-\MPnumerator=\count141
-\makeMPintoPDFobject=\count142
+\MPnumerator=\count139
+\makeMPintoPDFobject=\count140
 \everyMPtoPDFconversion=\toks37
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -444,6 +439,13 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
+\c@maskedRefs=\count141
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/apacite\english.apc"
+File: english.apc 2013/07/21 v6.03 apacite language file
+LaTeX Info: Redefining \BPBI on input line 129.
+LaTeX Info: Redefining \BHBI on input line 130.
+)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -457,15 +459,15 @@ G,.JBIG2,.JB2,.eps]
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=433.62001pt
-* \textheight=614.29501pt
+* \textheight=620.43001pt
 * \oddsidemargin=36.13501pt
 * \evensidemargin=36.13501pt
-* \topmargin=-50.58987pt
-* \headheight=25.29494pt
-* \headsep=25.29494pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
 * \topskip=12.0pt
-* \footskip=36.135pt
-* \marginparwidth=65.04256pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.8pt plus 4.0pt minus 2.0pt
@@ -478,169 +480,123 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@maskedRefs=\count143
-("C:\Program Files\MiKTeX 2.9\tex/latex/apacite\english.apc"
-File: english.apc 2013/07/21 v6.03 apacite language file
-LaTeX Info: Redefining \BPBI on input line 129.
-LaTeX Info: Redefining \BHBI on input line 130.
-)
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 106.
-
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 38.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 106.
+LaTeX Font Info:    Try loading font information for U+msa on input line 38.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 106.
+LaTeX Font Info:    Try loading font information for U+msb on input line 38.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
 
  []
 
 [0
 
 {C:/Users/seadubbs/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 113.
-
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 41.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 113.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 41.
  [1] (Abstract.tex)
 [2] (Acknowledgements.tex) [3] [4] (thesis_template.toc
-Overfull \hbox (2.8241pt too wide) detected at line 11
- \OT1/cmr/m/n/12 .    
- []
-
-
-Overfull \hbox (2.8241pt too wide) detected at line 16
- \OT1/cmr/m/n/12 .    
+Overfull \hbox (16.03026pt too wide) in paragraph at lines 32--32
+ [][] []\OT1/cmr/m/n/12 NEAR FIELD COM-MU-NI-CA-TION BASED AC-CESS CON-TROL FOR
+ WIRE- 
  []
 
 [5
 
-]
-Overfull \hbox (2.8241pt too wide) detected at line 21
- \OT1/cmr/m/n/12 .    
- []
-
-
-Overfull \hbox (2.8241pt too wide) detected at line 26
- \OT1/cmr/m/n/12 .    
- []
-
-
-Overfull \hbox (2.8241pt too wide) detected at line 31
- \OT1/cmr/m/n/12 .    
- []
-
-
-Overfull \hbox (2.8241pt too wide) detected at line 36
- \OT1/cmr/m/n/12 .    
- []
-
-[6]
-Overfull \hbox (2.8241pt too wide) detected at line 41
- \OT1/cmr/m/n/12 .    
- []
-
-
-Overfull \hbox (2.8241pt too wide) detected at line 46
- \OT1/cmr/m/n/12 .    
- []
-
-
-Overfull \hbox (18.21234pt too wide) in paragraph at lines 52--52
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-[]  
- []
-
-)
+] [6])
 \tf@toc=\write3
 \openout3 = `thesis_template.toc'.
 
- (thesis_template.lof)
+ [7] (thesis_template.lof)
 \tf@lof=\write4
 \openout4 = `thesis_template.lof'.
 
- (thesis_template.lot)
+ [8
+
+] (thesis_template.lot)
 \tf@lot=\write5
 \openout5 = `thesis_template.lot'.
 
- [7] [8] (abbr.tex) [9]
-CHAPTER .
+ [9
+
+] (abbr.tex)
+[10
+
+]
+Chapter1.
 (chapter1.tex) [1
 
 
 
 ]
-CHAPTER .
+Chapter2.
 (chapter2.tex) [2
 
 ]
-CHAPTER .
+Chapter3.
 (chapter3.tex) [3
 
 ]
-CHAPTER .
+Chapter4.
 (chapter4.tex) [4
 
 ]
-CHAPTER .
+Chapter5.
 (chapter5.tex) [5
 
 ]
-CHAPTER .
+Chapter6.
 (chapter6.tex) [6
 
 ]
-CHAPTER .
+Chapter7.
 (chapter7.tex) [7
 
 ]
-CHAPTER .
+Chapter8.
 (chapter8.tex) (thesis_template.bbl [8
 
-]) [9
+] [9
 
-]
+]) [10]
 APPENDIX A.
-(Appendix1.tex) [10
+(Appendix1.tex) [11
 
 ] (thesis_template.aux) ) 
 Here is how much of TeX's memory you used:
- 5964 strings out of 492946
- 80328 string characters out of 3135518
- 170752 words of memory out of 3000000
- 9663 multiletter control sequences out of 15000+200000
- 11250 words of font info for 43 fonts, out of 3000000 for 9000
+ 5907 strings out of 492946
+ 79852 string characters out of 3135518
+ 170058 words of memory out of 3000000
+ 9606 multiletter control sequences out of 15000+200000
+ 10644 words of font info for 41 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,6n,43p,368b,218s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,6n,45p,326b,217s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-mi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis_template.pdf (20 pages, 84760 bytes).
+r12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on thesis_template.pdf (22 pages, 78106 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
+ 89 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

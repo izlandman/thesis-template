@@ -1,31 +1,11 @@
 \documentclass[reqno,12pt,oneside]{report} %right-side equation numbering, 12 point font, print one-sided
 %\documentclass[reqno,12pt,twoside,openright]{report} %right-side equation numbering, 12 point font, print two-sided, Chapters start on odd pages. Rackham only accepts one-sided, so this is for personal printings.
-\usepackage{algorithm}
-\usepackage[noend]{algorithmic}
-\usepackage{fancyhdr}
-\usepackage{verbatim}
-\usepackage{mathrsfs}
-\usepackage{url}
-\usepackage[cmex10]{amsmath}
+\usepackage{TempleDiss}
 
-% this is style file that is being edited to support adapation toward a Temple style disseration
-\usepackage{rac}
-\usepackage{tocloft}
-% these are specified by Temple, as of Spring 2017 the requirements were
-% 1.5 inch left margin
-% 1 inch right margin
-% 1 inch top margin
-% 1 inch bottom margin
-\usepackage[top=1in, bottom=1in, left=1.5in, right=1in, includefoot]{geometry}
 %\usepackage{geometry}
 \renewcommand{\theequation}{\thesection-\arabic{equation}}
 \usepackage{array}
-% correct bad hyphenation here
 
-%\usepackage{rac1}         % Use Rackham thesis style file
-%\usepackage{aas_macros}
-\usepackage{apacite}
-\usepackage{apacdoc}
 % To allow the reading of ADS journal references in the bibliography
 %\usepackage[intlimits]{amsmath} % Puts the limits of integrals on top and bottom
 \usepackage{amsxtra}     % Use various AMS packages
@@ -38,62 +18,14 @@
 \usepackage{epsfig}
 %\usepackage{subfigure}   % To make subfigures. Read subfigure.pdf on ctan.tug.org
 \usepackage{verbatim}
-\usepackage{natbib}      % Allows you to use BibTeX
 \usepackage[printonlyused]{acronym} % For the List of Abbreviations. Read acronym.pdf on ctan.tug.org
-\usepackage{setspace}    % Allows you to specify the line spacing
-\doublespacing           % \onehalfspacing for 1.5 spacing, \doublespacing for 2.0 spacing.
-\newcommand{\sun}{\ensuremath{\odot}} % sun symbol is \sun
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% Various theorem environments. All of the following have the same numbering
-% system as theorem.
-
-\theoremstyle{plain}
-\newtheorem{theorem}{Theorem}
-\newtheorem{prop}[theorem]{Proposition}
-\newtheorem{corollary}[theorem]{Corollary}
-\newtheorem{lemma}[theorem]{Lemma}
-\newtheorem{question}[theorem]{Question}
-\newtheorem{conjecture}[theorem]{Conjecture}
-\newtheorem{assumption}[theorem]{Assumption}
-
-\theoremstyle{definition}
-\newtheorem{definition}[theorem]{Definition}
-\newtheorem{notation}[theorem]{Notation}
-\newtheorem{condition}[theorem]{Condition}
-\newtheorem{example}[theorem]{Example}
-\newtheorem{introduction}[theorem]{Introduction}
-
-\theoremstyle{remark}
-\newtheorem{remark}[theorem]{Remark}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\numberwithin{theorem}{chapter}
-% Numbers theorems "x.y" where x is the section number, y is the theorem number
-
-%\renewcommand{\thetheorem}{\arabic{chapter}.\arabic{theorem}}
-
-%\makeatletter
-%\let\c@equation\c@theorem
-%\makeatother
-% This sequence of commands will incorporate equation numbering into the theorem numbering scheme
-
-%\renewcommand{\theenumi}{(\roman{enumi})}
-
-%This command creates a box marked ``To Do'' around text.
-%To use type \todo{  insert text here  }.
-
-\newcommand{\todo}[1]{\vspace{5 mm}\par \noindent
-\marginpar{\textsc{To Do}}
-\framebox{\begin{minipage}[c]{0.95 \textwidth}
-\tt\begin{center} #1 \end{center}\end{minipage}}\vspace{5 mm}\par}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 
 % Begin the front matter as required by Rackham dissertation guidelines
-\initializefrontsections
+\setupTOC
 
 % Title page as required by Temple University dissertation guidelines
 \titlepage{Snappy Title Goes Here}{the Temple University Graduate Board}{DOCTOR OF PHILOSOPHY}
@@ -104,10 +36,6 @@
  Dr. Member Three, Dept. of Z and X \\
  Dr. Member Four, External Reader, Dept. of Z and X \\
 }
-
-
-% Optional Frontispiece, don't believe Temple supports this feature
-%  \frontispiece{\includegraphics[width=4in]{xiali.PNG} a cool picture here.}
 
 % Optional, but recommended, Copyright page. if included must be labeled as page number ii
 \copyrightpage{Copyright}{Your Name}
@@ -137,14 +65,14 @@
 %\label{Preface}
 
 % Table of contents, list of figures, etc.
-\tableofcontents     % Required
-\listoffigures       % Required if there is more than one figure
-\listoftables        % Required if there is more than one table
+\producetableofcontents     % Required
+\producelistoffigures       % Required if there is more than one figure
+\producelistoftables        % Required if there is more than one table
 %\listofmaps          % Required if there is more than one map
 %\listofappendices    % Required if there is more than one appendix
 \listofabbreviations % Optional. Abbreviations should be stored in a file named abbr.tex
 
-\startthechapters
+\setupChapters
 % The individual files for each of the chapters are put here.
 % Save each chapter of your thesis to a separate tex file
 % and then use the \input command to include this file in your
