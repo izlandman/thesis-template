@@ -64,7 +64,12 @@
 % TOC Depth
 \setcounter{secnumdepth}{4}
 \setcounter{tocdepth}{4}
-\setlength{\cftchapnumwidth}{1.5em}
+% indents!
+\cftsetindents{chap}{0em}{1em}
+\cftsetindents{sec}{1.5em}{1.5em}
+\cftsetindents{subsec}{3em}{2.3em}
+\cftsetindents{subsubsec}{4.5em}{3.1em}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % DEFINITIONS, GENERIC
@@ -122,16 +127,8 @@
 \def\@chapter[#1]#2{%
  \ifnum \c@secnumdepth >\m@ne
   \refstepcounter{chapter}
-  \typeout{\@chapapp\space\thechapter.}
-
-  \addcontentsline{toc}{chapter}{
-	\protect\numberline{
-		\hbox{ }
-		\hfill
-		\thechapter.
-		\hspace{5pt}
-	}{ #1}}
-
+  \typeout{\@chapapp\thechapter.}
+  \addcontentsline{toc}{chapter}{\protect\numberline{\thechapter.}{#1}}
  \else
 
   \addcontentsline{toc}{chapter}{#1}
