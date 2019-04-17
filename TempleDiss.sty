@@ -16,12 +16,15 @@
 \RequirePackage{amstext,amsxtra,amsthm,amssymb,amsfonts}
 \RequirePackage[pdftex]{graphicx}
 \RequirePackage{tabularx,ragged2e,booktabs,multirow,wrapfig}
-\RequirePackage[labelfont=bf,margin=1cm]{caption}
+% labelfont=bf,margin=1cm
+\RequirePackage[justification=justified,singlelinecheck=false]{caption}
 \RequirePackage{makecell}
 \RequirePackage{csquotes}
 \RequirePackage[useregional]{datetime2}
 \RequirePackage{titlesec}
 \RequirePackage[all]{nowidow}
+\RequirePackage[noabbrev]{cleveref}
+\RequirePackage[printonlyused]{acronym}
 \RequirePackage{ifthen}
 
 \RequirePackage[doublespacing]{setspace}
@@ -112,6 +115,7 @@
 \def\dotfill{\leaders\hbox{$\m@th \mkern \@dotsep mu.\mkern \@dotsep mu$}\hfill}
 
 \def\producetableofcontents{
+	\clearpage
 	\hyphenchar\font=-1
 	\tableofcontents
 	\hyphenchar\font=`\-
@@ -131,8 +135,8 @@
 \def\producelistofmaps{\listofmaps}
 \def\producelistofappendices{\listofappendices}
 
-\def\producelistofabbreviations{
-	\listofabbreviations
+\def\producelistofabbreviations#1{
+	\listofabbreviations{#1}
 	\clearpage
 }
 
@@ -255,15 +259,15 @@
             \rightskip=0pt plus 0.30in
         \fi%
         %
-        \bf\Large\MakeUppercase{#1}%
+        \bf\large\MakeUppercase{#1}%
         %
         \parshape=6 % account for a maximum of six lines - thereafter all will have the final width
-            0.00in 4.5in
-            0.25in 4.0in
-            0.50in 3.5in
-            0.75in 3.0in
-            1.00in 2.5in
-            1.25in 2.0in
+            0.00in 5.75in
+            0.25in 5.5in
+            0.50in 5.25in
+            0.75in 5.00in
+            1.00in 4.75in
+            1.25in 4.50in
     }% \vbox
 }% \centeredHeadingPar
 
@@ -309,7 +313,7 @@
 					\@makeTcaption
 					{\csname fnum@#1\endcsname}
 					{#2}
-					{\ignorespaces\protect\small\normalsize\rm #3}
+					{\ignorespaces\protect\par\small\normalsize\rm #3}
 		
 					\endgroup
 					
@@ -351,6 +355,7 @@
 		\hbox to\hsize{\hfill\box\@tempboxa\hfill}
 		
 	\fi
+	\vskip 10pt
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -450,7 +455,7 @@
  \clearpage
 }
 
-\def\listofabbreviations{% Uses the acronym package -jg
+\def\listofabbreviations#1{% Uses the acronym package -jg
  \newpage
  \addcontentsline{toc}{chapter}{LIST OF ABBREVIATIONS}
  \@restonecolfalse\if@twocolumn\@restonecoltrue\onecolumn\fi
@@ -459,7 +464,7 @@
  \centerline{\large\bf LIST OF ABBREVIATIONS}
  \vspace{0.7in}
  \begin{singlespace}
-  \begin{acronym}
+  \begin{acronym}[#1]
    \input{abbr}
   \end{acronym}
  \end{singlespace} 
