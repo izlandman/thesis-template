@@ -1,0 +1,41 @@
+% !TEX root = defense_index.tex
+
+Relevant topics discussed in each sections that may not be familiar to all readers are briefly outlined here.
+
+\section{Background}
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Defining Similarity via Cohen's Kappa}
+\label{append-cohen}
+
+It is difficult to produce annotated sets of \ac{EEG} recordings without clinical support. To ensure the accuracy of these sets it is necessary to have multiple clinicians annotate the same data to build a consensus-based annotation. This process invites each clinician's bias into the annotation process which must be tracked and controlled in terms of intra-rater and inter-rater similarity scores. These scores provide a sense of strength of a clinician's ability and robustness of a dataset as a function of \emph{agreement} evaluated as Cohen's Kappa ($\kappa$).
+
+\begin{table}[ht]
+\caption{Table of Cohen's Kappa}
+\centering
+\begin{tabular}{cccc}
+\toprule
+&                        & \multicolumn{2}{c}{S1}                          \\
+\cline{3-4} 
+& \multicolumn{1}{c|}{}  & \multicolumn{1}{c|}{A} & \multicolumn{1}{c|}{B} \\
+\cline{2-4} 
+\multicolumn{1}{c|}{\multirow{2}{*}{S2}} & \multicolumn{1}{c|}{A} & \multicolumn{1}{c|}{q} & \multicolumn{1}{c|}{w} \\
+\cline{2-4} 
+\multicolumn{1}{c|}{} & \multicolumn{1}{c|}{B} & \multicolumn{1}{c|}{z} & \multicolumn{1}{c|}{x} \\ \cline{2-4} 
+\end{tabular}
+\label{tab:kappa}
+\end{table}
+
+Given two raters and their tallies for class A or B in Table \ref{tab:kappa}, their inter-rater agreement $\kappa$ is calculated as follows:
+\begin{gather}
+\kappa = \frac{p_{o}-p_{e}}{1-p_{e}} = 1 - \frac{1-p_{o}}{1-p_{e}}
+\end{gather}
+\begin{gather}
+p_{o} = \frac{q+x}{q+w+z+x} \nonumber \\
+p_{e} =  \frac{q+w}{q+w+z+x}*\frac{q+z}{q+w+z+x}+\frac{z+x}{q+w+z+x}*\frac{w+x}{q+w+z+x}
+\end{gather}
+In the above equation, $p_{o}$ finds the percentage of agreement between the two raters\footnote{In the event the two raters are the same clinician, the agreement represents intra-rater agreement instead of inter-rater agreement.}. Then $p_{e}$ finds the percentage the raters chose the same label, how often S1 chose A and S2 chose A. The calculated expectation of similarity, $p_{e}$, is used to control for the outcome of similarity, $p_{o}$. The grades of agreement are quantified as follows: \{ $<0$ poor; $0-0.20$ slight; $0.21-0.40$ fair; $0.41-0.60$ moderate; $0.61-0.80$ substantial; $0.81-1.00$ almost perfect\} \cite{Landis2008}.
+
+\section{Algorithms}
+
+\section{Evaluation Metrics}

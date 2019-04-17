@@ -1,3 +1,49 @@
 {Figure}\nobreakspace \hfill {Page}\par 
 \hbox { }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces \small \normalsize \rm Figure Zero}}{2}% 
+\contentsline {figure}{\numberline {1.1}{\ignorespaces \small \normalsize \rm Example of EEG}}{6}% 
+\hbox { }
+\contentsline {figure}{\numberline {1.2}{\ignorespaces \small \normalsize \rm Annotation example}}{8}% 
+\hbox { }
+\contentsline {figure}{\numberline {1.3}{\ignorespaces \small \normalsize \rm Artifact example}}{10}% 
+\hbox { }
+\contentsline {figure}{\numberline {1.4}{\ignorespaces \small \normalsize \rm Example of a generalized seizure EEG}}{11}% 
+\hbox { }
+\contentsline {figure}{\numberline {1.5}{\ignorespaces \small \normalsize \rm Example of sleeping EEG with sleep spindles.}}{12}% 
+\hbox { }
+\contentsline {figure}{\numberline {1.6}{\ignorespaces \small \normalsize \rm Example of an ERP}}{13}% 
+\hbox { }
+\contentsline {figure}{\numberline {1.7}{\ignorespaces \small \normalsize \rm Sleep Spindle example}}{16}% 
+\hbox { }
+\contentsline {figure}{\numberline {1.8}{\ignorespaces \small \normalsize \rm Sleep Spindle example}}{16}% 
+\hbox { }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces \small \normalsize \rm 10-20 EEG Configuration}}{27}% 
+\hbox { }
+\contentsline {figure}{\numberline {2.2}{\ignorespaces \small \normalsize \rm The \acs {TCP} Montage Layout}}{30}% 
+\hbox { }
+\contentsline {figure}{\numberline {2.3}{\ignorespaces \small \normalsize \rm PhysioNet Trial Composition}}{32}% 
+\hbox { }
+\contentsline {figure}{\numberline {2.4}{\ignorespaces \small \normalsize \rm Inter-rater annotation matching}}{37}% 
+\hbox { }
+\contentsline {figure}{\numberline {2.5}{\ignorespaces \small \normalsize \rm Statistical Thresholding of Artifacts}}{51}% 
+\hbox { }
+\contentsline {figure}{\numberline {2.6}{\ignorespaces \small \normalsize \rm F1 Performance of Four Supervised Algorithms}}{57}% 
+\hbox { }
+\contentsline {figure}{\numberline {2.7}{\ignorespaces \small \normalsize \rm Impact of features on LMBPNN classification}}{60}% 
+\hbox { }
+\contentsline {figure}{\numberline {2.8}{\ignorespaces \small \normalsize \rm BCI Calibration Error}}{63}% 
+\hbox { }
+\contentsline {figure}{\numberline {2.9}{\ignorespaces \small \normalsize \rm BCI Feedback Error}}{64}% 
+\hbox { }
+\contentsline {figure}{\numberline {2.10}{\ignorespaces \small \normalsize \rm UBM Development}}{71}% 
+\hbox { }
+\contentsline {figure}{\numberline {2.11}{\ignorespaces \small \normalsize \rm I-Vector Development}}{72}% 
+\hbox { }
+\contentsline {figure}{\numberline {2.12}{\ignorespaces \small \normalsize \rm Example of MAP of GMM}}{81}% 
+\hbox { }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \small \normalsize \rm Format of PhysioNet Trials}}{101}% 
+\hbox { }
+\contentsline {figure}{\numberline {3.2}{\ignorespaces \small \normalsize \rm Layout of \acs {TCP} montage for \acs {CEP} features.}}{103}% 
+\hbox { }
+\contentsline {figure}{\numberline {3.3}{\ignorespaces \small \normalsize \rm Generation of synthetic data from the \acs {TUHEEG}.}}{104}% 
+\hbox { }
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \small \normalsize \rm Layout of La Rocca's PSD and COH Channels.}}{109}% 

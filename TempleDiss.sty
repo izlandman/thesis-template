@@ -5,20 +5,31 @@
 % DEPENDENCIES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\RequirePackage[doublespacing]{setspace}
-\RequirePackage{titlesec, blindtext, color}
-\RequirePackage[nottoc]{tocbibind}
-\RequirePackage{tocloft}
 \RequirePackage{algorithm}
 \RequirePackage[noend]{algorithmic}
 \RequirePackage{fancyhdr}
 \RequirePackage{verbatim}
 \RequirePackage{mathrsfs}
-\RequirePackage{url}
-\RequirePackage[cmex10]{amsmath}
-\RequirePackage{apacite}
-\RequirePackage{apacdoc}
-\RequirePackage{natbib}
+\RequirePackage{bm}
+\RequirePackage[hyphens]{url}
+\RequirePackage{amsmath}
+\RequirePackage{amstext,amsxtra,amsthm,amssymb,amsfonts}
+\RequirePackage[pdftex]{graphicx}
+\RequirePackage{tabularx,ragged2e,booktabs,multirow,wrapfig}
+\RequirePackage[labelfont=bf,margin=1cm]{caption}
+\RequirePackage{makecell}
+\RequirePackage{csquotes}
+\RequirePackage[useregional]{datetime2}
+\RequirePackage{titlesec}
+\RequirePackage[all]{nowidow}
+
+\RequirePackage[doublespacing]{setspace}
+\RequirePackage{titlesec, blindtext, color}
+\RequirePackage[nottoc]{tocbibind}
+\RequirePackage{tocloft}
+
+\RequirePackage[numbers]{natbib}
+
 \RequirePackage{lipsum}
 
 % these are specified by Temple, as of Spring 2017 the requirements were
@@ -81,12 +92,13 @@
 \setlength{\cfttabindent}{0pt}  % remove indentation from tables in LoT
 
 % TOC Margins on page number
-\cftsetrmarg{0.5in}
+\cftsetrmarg{0.75in}
 
 % subsection spacing
 \titleformat{\section}[block]{\hspace{0em}\large}{\thesection}{1em}{}
 \titleformat{\subsection}[block]{\hspace{4em}\large}{\thesubsection}{1em}{}
 \titleformat{\subsubsection}[block]{\hspace{4em}\large}{\thesubsubsection}{1em}{}
+\titleformat{\subsubsubsection}[block]{\hspace{4em}\large\normalfont}{\thesubsubsubsection}{1em}{}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % DEFINITIONS, GENERIC
@@ -106,12 +118,16 @@
 }
 
 \def\producelistoffigures{
+	\begin{singlespacing}
 	\listoffigures
+	\end{singlespacing}
 	\clearpage
 }
 	
 \def\producelistoftables{
+	\begin{singlespacing}
 	\listoftables
+	\end{singlespacing}
 	\clearpage
 }
 
@@ -242,7 +258,7 @@
             \rightskip=0pt plus 0.30in
         \fi%
         %
-        \bf\MakeUppercase{#1}%
+        \bf\Large\MakeUppercase{#1}%
         %
         \parshape=6 % account for a maximum of six lines - thereafter all will have the final width
             0.00in 4.5in

@@ -1,6 +1,12 @@
 \documentclass[reqno,12pt,oneside]{report} %right-side equation numbering, 12 point font, print one-sided
 %\documentclass[reqno,12pt,twoside,openright]{report} %right-side equation numbering, 12 point font, print two-sided, Chapters start on odd pages. Rackham only accepts one-sided, so this is for personal printings.
+
 \usepackage{TempleDiss}
+
+% setup graphics paths
+
+\graphicspath{{Images/}{Plots/}}
+\DeclareGraphicsExtensions{.png, .jpeg, .pdf}
 
 %\usepackage{geometry}
 \renewcommand{\theequation}{\thesection-\arabic{equation}}
@@ -8,19 +14,57 @@
 
 % To allow the reading of ADS journal references in the bibliography
 %\usepackage[intlimits]{amsmath} % Puts the limits of integrals on top and bottom
-\usepackage{amsxtra}     % Use various AMS packages
-\usepackage{amsthm}
-\usepackage{amssymb}
-\usepackage{amsfonts}
+%\usepackage{amsxtra}     % Use various AMS packages
+%\usepackage{amsthm}
+%\usepackage{amssymb}
+%\usepackage{amsfonts}
+%\usepackage{amstext}
 \usepackage{graphicx}    % Add some packages for figures. Read epslatex.pdf on ctan.tug.org
 \usepackage{rotating}
 \usepackage{color}
 \usepackage{epsfig}
-%\usepackage{subfigure}   % To make subfigures. Read subfigure.pdf on ctan.tug.org
-\usepackage{verbatim}
+
 \usepackage[printonlyused]{acronym} % For the List of Abbreviations. Read acronym.pdf on ctan.tug.org
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\makeindex
+
+% IYAD EDITS
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+\newcommand{\blu}[1]{\textcolor{blue}{#1}}
+\usepackage[noabbrev]{cleveref}
+\creflabelformat{equation}{#2#1#3}
+\newcommand{\crefrangeconjunction}{--}
+\usepackage[super]{nth}
+\newcommand{\la}{$\leftarrow$}
+\renewcommand{\comment}[1]{\blu{\la (#1)}}
+\usepackage[normalem]{ulem}
+\newcommand{\replace}[2]{\sout{#1} \blu{#2}}
+\renewcommand{\c}[1]{\comment{#1} }
+\newcommand{\awk}{\c{awkward}}
+\newcommand{\wc}{\c{word choice}}
+\newcommand{\gr}{\comment{grammar} }
+% MAKE EXTRA TIME SAVING FUNCTIONS
+\newcommand{\absv}[1]{\left | {#1} \right |}
+
+% BETTER AGGREGATED DATASET NAMES
+\newcommand{\Abn}{\texttt{Abn}}
+\newcommand{\Nrm}{\texttt{Nrm}}
+\newcommand{\Szr}{\texttt{Szr}}
+\newcommand{\Mot}{\texttt{Mot}}
+
+\newcommand{\AbnNrm}{\texttt{AbnNrm}}
+\newcommand{\AbnMot}{\texttt{AbnMot}}
+\newcommand{\AbnSzr}{\texttt{AbnSzr}}
+\newcommand{\NrmMot}{\texttt{NrmMot}}
+\newcommand{\NrmSzr}{\texttt{NrmSzr}}
+\newcommand{\SzrMot}{\texttt{SzrMot}}
+
+\newcommand{\AbnNrmSzr}{\texttt{AbnNrmSzr}}
+\newcommand{\AbnNrmMot}{\texttt{AbnNrmMot}}
+\newcommand{\NrmSzrMot}{\texttt{NrmSzrMot}}
+\newcommand{\AbnSzrMot}{\texttt{AbnSzrMot}}
 
 \begin{document}
 
@@ -38,7 +82,7 @@
 }
 
 % Optional, but recommended, Copyright page. if included must be labeled as page number ii
-\copyrightpage{Copyright}{Your Name}
+%\copyrightpage{Copyright}{Your Name}
 
 % Page numbering. If you don't include a frontispiece or copyright page, you'll need to change this for two-sided printing.
 \makeatletter
@@ -82,11 +126,11 @@
  \label{chap:1}
  \input{chapter1}
 
-\chapter{LITERATURE REVIEW}
+\chapter{BACKGROUND}
  \label{chap:2}
  \input{chapter2}
 
-\chapter{A UNIFIED SECURE FRAMEWORK FOR WIRELESS MEDICAL DEVICES USING PATIENT'S CELL PHONE}
+\chapter{METHODS}
  \label{chap:3}
  \input{chapter3}
 
@@ -113,16 +157,16 @@
 
 \startbibliography
  \begin{singlespace} % Bibliography must be single spaced
-  \bibliographystyle{apacite}
+  \bibliographystyle{dissBib}
   %\bibliographystyle{agu04}
   %\bibliographystyle{aas_macros}
-  \bibliography{referencelist1}
+  \bibliography{library}
    %\input{Ref/referenc1}
   %\bibliography{References}   %Use the BibTeX file ``References.bib''.
  \end{singlespace}
 
  \startappendices
- \chapter{Appendix1}
+ \chapter{AppendixA}
  \label{Appendix:A}
  \input{Appendix1}
  

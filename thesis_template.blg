@@ -1,6 +1,8 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis_template.aux
-The style file: apacite.bst
-Database file #1: referencelist1.bib
-apacite.bst [2013/07/21 v6.03 APA bibliography style]
-Warning--No journal in mote
-(There was 1 warning)
+The style file: dissBib.bst
+Database file #1: library.bib
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+
+Done.
