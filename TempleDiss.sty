@@ -118,16 +118,12 @@
 }
 
 \def\producelistoffigures{
-	\begin{singlespacing}
 	\listoffigures
-	\end{singlespacing}
 	\clearpage
 }
 	
 \def\producelistoftables{
-	\begin{singlespacing}
 	\listoftables
-	\end{singlespacing}
 	\clearpage
 }
 
@@ -282,28 +278,75 @@
 %	\@startsection{subsubsection}{3}{\z@}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}{\normalsize}
 %}
 
-\long\def\@caption#1[#2]#3{%
- \addtocontents{\csname ext@#1\endcsname}{\hbox{ }}
- \addcontentsline{\csname ext@#1\endcsname}{#1}{\protect\numberline{\csname
-  the#1\endcsname}{\ignorespaces\protect\small\protect\normalsize\rm #2}}
- \par
- \begingroup
-  \@parboxrestore
-  \@makecaption{\csname fnum@#1\endcsname}{\ignorespaces\protect\small\normalsize\rm #3}
-  \par
- \endgroup
+\long\def\@caption#1[#2]#3{
+
+ 	\addcontentsline
+ 	{\csname ext@#1\endcsname}
+ 	{#1}
+ 	{\protect\numberline{\csname the#1\endcsname}{\ignorespaces\protect\small\protect\normalsize\rm #2}}
+	
+	\ifcsname figure\endcsname
+	
+		\begingroup
+	
+		\@makeFcaption
+			{\csname fnum@#1\endcsname}
+			{#2}
+			{\ignorespaces\protect\small\normalsize\rm #3}
+		
+		\endgroup
+	
+	\else
+		\ifcsname table\endcsname
+	
+			\begingroup
+	
+			\@makeTcaption
+				{\csname fnum@#1\endcsname}
+				{#2}
+				{\ignorespaces\protect\small\normalsize\rm #3}
+		
+			\endgroup
+		\else
+		
+			% no eliseif, on your own for other captions
+		
+		\fi
+		
+	\fi
+	
 }
 
-\long\def\@makecaption#1#2{
- \vskip 10pt
- \setbox\@tempboxa\hbox{#1: #2}
- \ifdim \wd\@tempboxa >\hsize
-  \setbox\@tempboxa\hbox{#1: }
-  \def\@tempdimj{\hsize}
-  \advance\@tempdimj -\wd\@tempboxa
-  \hbox to\hsize{#1: \parbox[t]{\@tempdimj}{#2}}
- \else \hbox to\hsize{\hfill\box\@tempboxa\hfill}
- \fi}
+\long\def\@makeTcaption#1#2#3{
+
+	\@makecaption{#1}{#2}{#3}
+
+}
+
+\long\def\@makeFcaption#1#2#3{
+
+	\@makecaption{#1}{\underline{#2}}{#3}
+	
+}
+
+\long\def\@makecaption#1#2#3{
+	
+	\vskip 10pt
+	\setbox\@tempboxa\hbox{#1. #2. #3}
+	
+	\ifdim \wd\@tempboxa >\hsize
+		\setbox\@tempboxa\hbox{#1. }
+		
+		\def\@tempdimj{\hsize}
+		\advance\@tempdimj -\wd\@tempboxa
+		\hbox to\hsize{#1. \parbox[t]{\@tempdimj}{#2. #3}}
+		
+	\else
+	
+		\hbox to\hsize{\hfill\box\@tempboxa\hfill}
+		
+	\fi
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % SPECIFIC PAGES

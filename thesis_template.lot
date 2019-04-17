@@ -1,51 +1,5 @@
 {Table}\nobreakspace \hfill {Page}\par 
-\hbox { }
-\contentsline {table}{\numberline {2.1}{\ignorespaces \small \normalsize \rm Table of EEG Montages}}{28}% 
-\hbox { }
-\contentsline {table}{\numberline {2.2}{\ignorespaces \small \normalsize \rm EEG Frequency Bands}}{29}% 
-\hbox { }
-\contentsline {table}{\numberline {2.3}{\ignorespaces \small \normalsize \rm EEG Terminology Agreement}}{35}% 
-\hbox { }
-\contentsline {table}{\numberline {2.4}{\ignorespaces \small \normalsize \rm Gerber's Long Versus Short Segment Classification}}{38}% 
-\hbox { }
-\contentsline {table}{\numberline {2.5}{\ignorespaces \small \normalsize \rm Inter-rater agreement of clinicians}}{39}% 
-\hbox { }
-\contentsline {table}{\numberline {2.6}{\ignorespaces \small \normalsize \rm Inter-rater classification}}{40}% 
-\hbox { }
-\contentsline {table}{\numberline {2.7}{\ignorespaces \small \normalsize \rm Background and Pattern Inter- and Intra-rater Performance}}{41}% 
-\hbox { }
-\contentsline {table}{\numberline {2.8}{\ignorespaces \small \normalsize \rm Intra-rater agreement after 12 months}}{42}% 
-\hbox { }
-\contentsline {table}{\numberline {2.9}{\ignorespaces \small \normalsize \rm Intra-rater agreement after 4 months}}{42}% 
-\hbox { }
-\contentsline {table}{\numberline {2.10}{\ignorespaces \small \normalsize \rm Intra-rater classification}}{43}% 
-\hbox { }
-\contentsline {table}{\numberline {2.11}{\ignorespaces \small \normalsize \rm ERP Classification Performance}}{46}% 
-\hbox { }
-\contentsline {table}{\numberline {2.12}{\ignorespaces \small \normalsize \rm Sleep Spindle Detection F1 Score}}{48}% 
-\hbox { }
-\contentsline {table}{\numberline {2.13}{\ignorespaces \small \normalsize \rm Raw feature means for \acs {AD} classification.}}{49}% 
-\hbox { }
-\contentsline {table}{\numberline {2.14}{\ignorespaces \small \normalsize \rm FASTER's artifact detection performance}}{52}% 
-\hbox { }
-\contentsline {table}{\numberline {2.15}{\ignorespaces \small \normalsize \rm Confusion matrix of sleep stage classification}}{55}% 
-\hbox { }
-\contentsline {table}{\numberline {2.16}{\ignorespaces \small \normalsize \rm Single EEG Channel Sleep Scoring}}{56}% 
-\hbox { }
-\contentsline {table}{\numberline {2.17}{\ignorespaces \small \normalsize \rm Classification accuracy of entropy based feature sets}}{58}% 
-\hbox { }
-\contentsline {table}{\numberline {2.18}{\ignorespaces \small \normalsize \rm Entropy levels based upon seizure state}}{59}% 
-\hbox { }
-\contentsline {table}{\numberline {2.19}{\ignorespaces \small \normalsize \rm Classification accuracy of single and mixed band feature sets}}{61}% 
-\hbox { }
-\contentsline {table}{\numberline {2.20}{\ignorespaces \small \normalsize \rm Imagined Activity HTER}}{68}% 
-\hbox { }
-\contentsline {table}{\numberline {2.21}{\ignorespaces \small \normalsize \rm EER of phase synchronization based subject verification}}{68}% 
-\hbox { }
-\contentsline {table}{\numberline {3.1}{\ignorespaces \small \normalsize \rm Composition of Synthetic Data Sets}}{105}% 
-\hbox { }
-\contentsline {table}{\numberline {3.2}{\ignorespaces \small \normalsize \rm Feature Set Configurations}}{106}% 
-\hbox { }
-\contentsline {table}{\numberline {3.3}{\ignorespaces \small \normalsize \rm Combine Dataset Designations}}{111}% 
-\hbox { }
-\contentsline {table}{\numberline {3.4}{\ignorespaces \small \normalsize \rm Epoch Duration Configuration}}{115}% 
+\contentsline {table}{\numberline {3.1}{\ignorespaces \small \normalsize \rm Composition of Synthetic Data Sets}}{10}% 
+\contentsline {table}{\numberline {3.2}{\ignorespaces \small \normalsize \rm Feature Set Configurations}}{11}% 
+\contentsline {table}{\numberline {3.3}{\ignorespaces \small \normalsize \rm Combine Dataset Designations}}{16}% 
+\contentsline {table}{\numberline {3.4}{\ignorespaces \small \normalsize \rm Epoch Duration Configuration}}{20}% 

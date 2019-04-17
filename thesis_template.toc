@@ -3,123 +3,58 @@
 \contentsline {chapter}{ABSTRACT}{ii}% 
 \contentsline {chapter}{ACKNOWLEDGEMENTS}{iv}% 
 \contentsline {chapter}{DEDICATION}{v}% 
-\contentsline {chapter}{LIST OF FIGURES}{xi}% 
-\contentsline {chapter}{LIST OF TABLES}{xiii}% 
-\contentsline {chapter}{LIST OF ABBREVIATIONS}{xv}% 
+\contentsline {chapter}{LIST OF FIGURES}{ix}% 
+\contentsline {chapter}{LIST OF TABLES}{x}% 
+\contentsline {chapter}{LIST OF ABBREVIATIONS}{xi}% 
 \mbox { }\newline \noindent {CHAPTER}\par 
 \begin {singlespace}
 \contentsline {chapter}{\numberline {1.}{INTRODUCTION}}{1}% 
 \end {singlespace}
-\contentsline {section}{\numberline {1.1}The Landscape of Electroencephalograms}{3}% 
-\contentsline {subsection}{\numberline {1.1.1}Clinician Development}{4}% 
-\contentsline {subsection}{\numberline {1.1.2}Clinical Annotations}{6}% 
-\contentsline {subsection}{\numberline {1.1.3}Algorithm Applications}{9}% 
-\contentsline {subsection}{\numberline {1.1.4}Algorithm Development}{14}% 
-\contentsline {section}{\numberline {1.2}Research Proposal}{18}% 
-\contentsline {subsection}{\numberline {1.2.1}The Research Aims}{19}% 
-\contentsline {subsection}{\numberline {1.2.2}The Research Experiments}{21}% 
 \begin {singlespace}
-\contentsline {chapter}{\numberline {2.}{BACKGROUND}}{23}% 
+\contentsline {chapter}{\numberline {2.}{BACKGROUND}}{2}% 
 \end {singlespace}
-\contentsline {section}{\numberline {2.1}Electroencephalograms}{24}% 
-\contentsline {subsection}{\numberline {2.1.1}Properties of Electroencephalograms}{26}% 
-\contentsline {subsection}{\numberline {2.1.2}Available Datasets}{28}% 
-\contentsline {subsubsection}{\numberline {2.1.2.1}Temple University Hospital EEG Corpus}{29}% 
-\contentsline {subsubsection}{\numberline {2.1.2.2}PhysioNet EEG Motor Movement/Imagery Database}{31}% 
-\contentsline {section}{\numberline {2.2}Applications and Classification of Electroencephalograms}{31}% 
-\contentsline {subsection}{\numberline {2.2.1}Clinician Classification}{34}% 
-\contentsline {subsubsection}{\numberline {2.2.1.1}Clinician Inter-rater Agreement}{36}% 
-\contentsline {subsubsection}{\numberline {2.2.1.2}Clinician Intra-rater Agreement}{40}% 
-\contentsline {subsection}{\numberline {2.2.2}Algorithm Classification}{44}% 
-\contentsline {subsubsection}{\numberline {2.2.2.1}Statistical Algorithms}{45}% 
-\contentsline {subsubsection}{\numberline {2.2.2.2}Supervised Algorithms}{53}% 
-\contentsline {subsubsection}{\numberline {2.2.2.3}Unsupervised Algorithms}{60}% 
-\contentsline {subsection}{\numberline {2.2.3}Bio-metric Applications}{64}% 
-\contentsline {subsubsection}{\numberline {2.2.3.1}Resting Recordings}{65}% 
-\contentsline {subsubsection}{\numberline {2.2.3.2}Active Recordings}{67}% 
-\contentsline {section}{\numberline {2.3}Identity Vectors}{70}% 
-\contentsline {subsection}{\numberline {2.3.1}Mathematics}{73}% 
-\contentsline {subsubsection}{\numberline {2.3.1.1}I-Vectors}{73}% 
-\contentsline {subsubsection}{\numberline {2.3.1.2}Total Variability Matrix}{76}% 
-\contentsline {subsubsection}{\numberline {2.3.1.3}Universal Background Models}{78}% 
-\contentsline {subsubsection}{\numberline {2.3.1.4}Maximum A Posteriori Parameters}{80}% 
-\contentsline {subsubsection}{\numberline {2.3.1.5}Gaussian Mixture Models}{81}% 
-\contentsline {subsection}{\numberline {2.3.2}Success in Speech and Adaptation}{83}% 
-\contentsline {section}{\numberline {2.4}Machine Learning Algorithms}{84}% 
-\contentsline {subsection}{\numberline {2.4.1}Factor Analysis}{84}% 
-\contentsline {subsubsection}{\numberline {2.4.1.1}Principal Component Analysis}{85}% 
-\contentsline {subsubsection}{\numberline {2.4.1.2}Independent Component Analysis}{86}% 
-\contentsline {subsubsection}{\numberline {2.4.1.3}Linear Discriminate Analysis}{88}% 
-\contentsline {subsection}{\numberline {2.4.2}Algorithms}{90}% 
-\contentsline {subsubsection}{\numberline {2.4.2.1}Gaussian Classifiers}{90}% 
-\contentsline {subsubsection}{\numberline {2.4.2.2}Naive Bayes Classifier}{91}% 
-\contentsline {subsubsection}{\numberline {2.4.2.3}K-Nearest Neighbor Classifier}{92}% 
-\contentsline {subsubsection}{\numberline {2.4.2.4}Support Vector Machines}{93}% 
-\contentsline {subsubsection}{\numberline {2.4.2.5}Dirichlet Process}{94}% 
-\contentsline {subsubsection}{\numberline {2.4.2.6}Artificial Neural Networks}{95}% 
-\contentsline {subsubsection}{\numberline {2.4.2.7}X-Vectors}{96}% 
 \begin {singlespace}
-\contentsline {chapter}{\numberline {3.}{METHODS}}{98}% 
+\contentsline {chapter}{\numberline {3.}{METHODS}}{3}% 
 \end {singlespace}
-\contentsline {section}{\numberline {3.1}Experimental Outline}{98}% 
-\contentsline {section}{\numberline {3.2}Data}{99}% 
-\contentsline {subsection}{\numberline {3.2.1}PhysioNet Database}{100}% 
-\contentsline {subsection}{\numberline {3.2.2}TUH Corpus}{102}% 
-\contentsline {subsection}{\numberline {3.2.3}Synthetic Dataset}{103}% 
-\contentsline {subsection}{\numberline {3.2.4}Feature Sets}{105}% 
-\contentsline {subsubsection}{\numberline {3.2.4.1}Cepstral Features}{107}% 
-\contentsline {subsubsection}{\numberline {3.2.4.2}Power Spectral Density Features}{108}% 
-\contentsline {subsubsection}{\numberline {3.2.4.3}Spectral Coherence Features}{109}% 
-\contentsline {subsubsection}{\numberline {3.2.4.4}Aggregated Datasets}{110}% 
-\contentsline {section}{\numberline {3.3}Evaluation Metrics}{111}% 
-\contentsline {subsection}{\numberline {3.3.1}Mixture Size}{112}% 
-\contentsline {subsection}{\numberline {3.3.2}TVM Dimensions}{113}% 
-\contentsline {subsection}{\numberline {3.3.3}LDA Dimension}{114}% 
-\contentsline {subsection}{\numberline {3.3.4}Epoch Configuration}{114}% 
-\contentsline {subsection}{\numberline {3.3.5}Dataset-Feature}{115}% 
-\contentsline {section}{\numberline {3.4}Implementation}{116}% 
-\contentsline {subsection}{\numberline {3.4.1}Software}{116}% 
-\contentsline {subsubsection}{\numberline {3.4.1.1}Feature Creation}{118}% 
-\contentsline {subsubsection}{\numberline {3.4.1.2}UBM Class}{118}% 
-\contentsline {subsubsection}{\numberline {3.4.1.3}TVM Class}{119}% 
-\contentsline {subsubsection}{\numberline {3.4.1.4}Mahalanobis Evaluation}{119}% 
-\contentsline {subsection}{\numberline {3.4.2}Hardware}{120}% 
+\contentsline {section}{\numberline {3.1}Experimental Outline}{3}% 
+\contentsline {section}{\numberline {3.2}Data}{4}% 
+\contentsline {subsection}{\numberline {3.2.1}PhysioNet Database}{5}% 
+\contentsline {subsection}{\numberline {3.2.2}TUH Corpus}{7}% 
+\contentsline {subsection}{\numberline {3.2.3}Synthetic Dataset}{8}% 
+\contentsline {subsection}{\numberline {3.2.4}Feature Sets}{10}% 
+\contentsline {subsubsection}{\numberline {3.2.4.1}Cepstral Features}{12}% 
+\contentsline {subsubsection}{\numberline {3.2.4.2}Power Spectral Density Features}{13}% 
+\contentsline {subsubsection}{\numberline {3.2.4.3}Spectral Coherence Features}{15}% 
+\contentsline {subsubsection}{\numberline {3.2.4.4}Aggregated Datasets}{15}% 
+\contentsline {section}{\numberline {3.3}Evaluation Metrics}{16}% 
+\contentsline {subsection}{\numberline {3.3.1}Mixture Size}{17}% 
+\contentsline {subsection}{\numberline {3.3.2}TVM Dimensions}{18}% 
+\contentsline {subsection}{\numberline {3.3.3}LDA Dimension}{19}% 
+\contentsline {subsection}{\numberline {3.3.4}Epoch Configuration}{20}% 
+\contentsline {subsection}{\numberline {3.3.5}Dataset-Feature}{20}% 
+\contentsline {section}{\numberline {3.4}Implementation}{21}% 
+\contentsline {subsection}{\numberline {3.4.1}Software}{21}% 
+\contentsline {subsubsection}{\numberline {3.4.1.1}Feature Creation}{23}% 
+\contentsline {subsubsection}{\numberline {3.4.1.2}UBM Class}{23}% 
+\contentsline {subsubsection}{\numberline {3.4.1.3}TVM Class}{24}% 
+\contentsline {subsubsection}{\numberline {3.4.1.4}Mahalanobis Evaluation}{24}% 
+\contentsline {subsection}{\numberline {3.4.2}Hardware}{25}% 
 \begin {singlespace}
-\contentsline {chapter}{\numberline {4.}{NEAR FIELD COMMUNICATION BASED ACCESS CONTROL FOR WIRELESS MEDICAL DEVICES}}{121}% 
+\contentsline {chapter}{\numberline {4.}{NEAR FIELD COMMUNICATION BASED ACCESS CONTROL FOR WIRELESS MEDICAL DEVICES}}{26}% 
 \end {singlespace}
-\contentsline {section}{\numberline {4.1}Start Here}{121}% 
-\contentsline {subsection}{\numberline {4.1.1}More Here}{121}% 
-\contentsline {subsection}{\numberline {4.1.2}And Again}{121}% 
-\contentsline {section}{\numberline {4.2}Restart!}{121}% 
 \begin {singlespace}
-\contentsline {chapter}{\numberline {5.}{A PATIENT ACCESS PATTERN BASED ACCESS CONTROL SCHEME}}{122}% 
+\contentsline {chapter}{\numberline {5.}{A PATIENT ACCESS PATTERN BASED ACCESS CONTROL SCHEME}}{27}% 
 \end {singlespace}
-\contentsline {section}{\numberline {5.1}Start Here}{122}% 
-\contentsline {subsection}{\numberline {5.1.1}More Here}{122}% 
-\contentsline {subsection}{\numberline {5.1.2}And Again}{122}% 
-\contentsline {section}{\numberline {5.2}Restart!}{122}% 
 \begin {singlespace}
-\contentsline {chapter}{\numberline {6.}{PATIENT INFUSION PATTERN BASED ACCESS CONTROL SCHEMES FOR WIRELESS INSULIN PUMP SYSTEM}}{123}% 
+\contentsline {chapter}{\numberline {6.}{PATIENT INFUSION PATTERN BASED ACCESS CONTROL SCHEMES FOR WIRELESS INSULIN PUMP SYSTEM}}{28}% 
 \end {singlespace}
-\contentsline {section}{\numberline {6.1}Start Here}{123}% 
-\contentsline {subsection}{\numberline {6.1.1}More Here}{123}% 
-\contentsline {subsection}{\numberline {6.1.2}And Again}{123}% 
-\contentsline {section}{\numberline {6.2}Restart!}{123}% 
 \begin {singlespace}
-\contentsline {chapter}{\numberline {7.}{BIOMETRICS BASED TWO-LEVEL SECURE ACCESS CONTROL FOR IMPLANTABLE MEDICAL DEVICES DURING EMERGENCIES}}{124}% 
+\contentsline {chapter}{\numberline {7.}{BIOMETRICS BASED TWO-LEVEL SECURE ACCESS CONTROL FOR IMPLANTABLE MEDICAL DEVICES DURING EMERGENCIES}}{29}% 
 \end {singlespace}
-\contentsline {section}{\numberline {7.1}Start Here}{124}% 
-\contentsline {subsection}{\numberline {7.1.1}More Here}{124}% 
-\contentsline {subsection}{\numberline {7.1.2}And Again}{124}% 
-\contentsline {section}{\numberline {7.2}Restart!}{124}% 
 \begin {singlespace}
-\contentsline {chapter}{\numberline {8.}{CONCLUSION}}{125}% 
+\contentsline {chapter}{\numberline {8.}{CONCLUSION}}{30}% 
 \end {singlespace}
-\contentsline {section}{\numberline {8.1}Start Here}{125}% 
-\contentsline {subsection}{\numberline {8.1.1}More Here}{125}% 
-\contentsline {subsection}{\numberline {8.1.2}And Again}{125}% 
-\contentsline {section}{\numberline {8.2}Restart!}{125}% 
-\contentsline {chapter}{BIBLIOGRAPHY}{126}% 
+\contentsline {chapter}{BIBLIOGRAPHY}{31}% 
 \mbox { }\newline \noindent {APPENDICES}
 \hbox { }
 \begin {singlespace}
