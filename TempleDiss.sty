@@ -22,6 +22,7 @@
 \RequirePackage[useregional]{datetime2}
 \RequirePackage{titlesec}
 \RequirePackage[all]{nowidow}
+\RequirePackage{ifthen}
 
 \RequirePackage[doublespacing]{setspace}
 \RequirePackage{titlesec, blindtext, color}
@@ -285,7 +286,9 @@
  	{#1}
  	{\protect\numberline{\csname the#1\endcsname}{\ignorespaces\protect\small\protect\normalsize\rm #2}}
 	
-	\ifcsname figure\endcsname
+	% is it a figure?
+	\ifthenelse{\equal{#1}{figure}}
+		{
 	
 		\begingroup
 	
@@ -295,25 +298,27 @@
 			{\ignorespaces\protect\small\normalsize\rm #3}
 		
 		\endgroup
+		}
+		{
+			% Not a figure!
+			\ifthenelse{\equal{#1}{table}}
+				{
+				
+					\begingroup
 	
-	\else
-		\ifcsname table\endcsname
-	
-			\begingroup
-	
-			\@makeTcaption
-				{\csname fnum@#1\endcsname}
-				{#2}
-				{\ignorespaces\protect\small\normalsize\rm #3}
+					\@makeTcaption
+					{\csname fnum@#1\endcsname}
+					{#2}
+					{\ignorespaces\protect\small\normalsize\rm #3}
 		
-			\endgroup
-		\else
-		
-			% no eliseif, on your own for other captions
-		
-		\fi
-		
-	\fi
+					\endgroup
+					
+				}
+				{
+					% Not a table!
+				}
+				
+		}
 	
 }
 

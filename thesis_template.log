@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.16)  17 APR 2019 13:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.16)  17 APR 2019 14:48
 entering extended mode
 **C:/Users/seadubbs/Documents/thesis-template/thesis_template.tex
 (C:/Users/seadubbs/Documents/thesis-template/thesis_template.tex
@@ -781,12 +781,12 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: Incompatible package detected (regarding \@caption).
 (caption)             \@caption = \long macro:#1[#2]#3-> \par \addcontentsline 
 {\csname ext@#1\endcsname } {#1} {\protect \numberline {\csname the#1\endcsname
- }{\ignorespaces \protect \small \protect \normalsize \rm #2}} \par \ifcsname f
-igure\endcsname \par \begingroup \par \@makeFcaption {\csname fnum@#1\endcsname
- } {#2} {\ignorespaces \protect \small \normalsize \rm #3} \par \endgroup \par 
-\else \ifcsname table\endcsname \par \begingroup \par \@makeTcaption {\csname f
-num@#1\endcsname } {#2} {\ignorespaces \protect \small \normalsize \rm #3} \par
- \endgroup \else \par \par \fi \par \fi \par .
+ }{\ignorespaces \protect \small \protect \normalsize \rm #2}} \par \ifthenelse
+ {\equal {#1}{figure}} { \par \begingroup \par \@makeFcaption {\csname fnum@#1\
+endcsname } {#2} {\ignorespaces \protect \small \normalsize \rm #3} \par \endgr
+oup } { \ifthenelse {\equal {#1}{table}} { \par \begingroup \par \@makeTcaption
+ {\csname fnum@#1\endcsname } {#2} {\ignorespaces \protect \small \normalsize \
+rm #3} \par \endgroup \par } { } \par } \par .
 
 
 Package caption Warning: \caption will not be redefined since it's already
@@ -1002,7 +1002,7 @@ s were ap-plied to the [][]
 
 [10]
 Underfull \hbox (badness 10000) in paragraph at lines 166--166
-[]$[]$\OT1/cmr/m/n/12 .
+[]\OT1/cmr/m/n/12 Feature Set Con-fig-u-ra-tions.
  []
 
 
@@ -1040,8 +1040,8 @@ although it is yet undefined on input line 221.
 Package acronym Info: Label `acro:BCI' newly defined as it shall be overridden
 although it is yet undefined on input line 221.
 [14 <./Images/rocca_layout.png>] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 267--267
-[]$[]$\OT1/cmr/m/n/12 . Com-bine
+Underfull \hbox (badness 4846) in paragraph at lines 267--267
+[]\OT1/cmr/m/n/12 Combine Dataset Des-ig-na-tions. Com-bine
  []
 
 
@@ -1073,16 +1073,6 @@ LaTeX Warning: Reference `2-mathematics' on page 18 undefined on input line 290
 Package acronym Info: Label `acro:LDA' newly defined as it shall be overridden
 although it is yet undefined on input line 292.
 [18] [19]
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
-[]$[]$\OT1/cmr/m/n/12 .
- []
-
-
-Underfull \hbox (badness 1490) in paragraph at lines 332--332
-\OT1/cmr/m/n/12 Num-ber of to-tal epochs per
- []
-
-
 Overfull \hbox (54.0712pt too wide) detected at line 332
 \OT1/cmr/m/n/12 Table 3.4. []
  []
@@ -1147,7 +1137,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  22368 strings out of 492902
  408418 string characters out of 3133541
- 704915 words of memory out of 3000000
+ 704941 words of memory out of 3000000
  25967 multiletter control sequences out of 15000+200000
  547199 words of font info for 82 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1164,7 +1154,7 @@ b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis_template.pdf (48 pages, 587037 bytes).
+Output written on thesis_template.pdf (48 pages, 586879 bytes).
 PDF statistics:
  218 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
