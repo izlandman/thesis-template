@@ -51,13 +51,13 @@ Even when presented with data common to their expertise, pairwise clinician simi
 %%%%%%%%%%%%%%%
 \subsection{Clinical Annotations}
 
-The ability to produce correct annotations is a fundamental component of \ac{EEG} based research. In order to validate the performance of algorithms, clinicians must provided annotated data. These datasets are annotated through the lenses of the clinician's specialization and the patient's condition or diagnosis. As discussed previously, even when annotating the same data, clinicians struggle to come to consensus about its contents. Figure \ref{fig:halford_anno} shows the results of seven clinicians annotating an hour long segment for seizures and \acp{PD}. Nearly all the clinicians annotate abnormal events, save one, but the diversity and quantity of annotations are inconsistent.
+The ability to produce correct annotations is a fundamental component of \ac{EEG} based research. In order to validate the performance of algorithms, clinicians must provided annotated data. These datasets are annotated through the lenses of the clinician's specialization and the patient's condition or diagnosis. As discussed previously, even when annotating the same data, clinicians struggle to come to consensus about its contents. Figure \Cref{fig:halford_anno} shows the results of seven clinicians annotating an hour long segment for seizures and \acp{PD}. Nearly all the clinicians annotate abnormal events, save one, but the diversity and quantity of annotations are inconsistent.
 
 %%%%%%%
 \begin{figure}
 \centering
 \includegraphics[width=0.6\linewidth,keepaspectratio]{halford_7rev}
-\caption[Example of EEG]{In Halford et al. \cite{Halford2015}, seven reviewers were asked to annotate for seizures and \acp{PD}. The annotation results of the hour long recording, Segment 21, show that six reviewers labeled seizure events, five labeled \acp{PD}, and one labeled nothing. The quantity of annotation varies as does the spatial alignment between between reviewers.}
+\caption[Example of EEG]{\underline{Example of EEG.} In Halford et al. \cite{Halford2015}, seven reviewers were asked to annotate for seizures and \acp{PD}. The annotation results of the hour long recording, Segment 21, show that six reviewers labeled seizure events, five labeled \acp{PD}, and one labeled nothing. The quantity of annotation varies as does the spatial alignment between between reviewers.}
 \label{fig:halford_anno}
 \end{figure}
 %%%%%%
@@ -67,13 +67,13 @@ Further complicating matters is that investigators often produce their own datas
 % May need to cite something here, or perhaps an image from a study
 While these decisions are practical with respect to specific studies, this behavior prevents supervised \ac{ML} techniques for being applied across datasets. Without consistent sampling rates, the datasets may need to be interpolated to produce consistent windows of data. Mismatches in electrodes, inconsistent annotations, and artifacts are often manually resolved via the experiment team's limited knowledge or by possibly requiring the assistance of yet another clinician. While algorithms may overcome noise inherent in the data, this is only possible if there is a plethora of well annotated data from which to learn.
 
-Annotations start, as shown in Figure \ref{fig:wulsin_anno}, as waveforms whose variations conform to similar behaviors. Not all annotations are related to medical conditions, as eye blinks and background are often considered to be noise. Differentiating such noise from waveforms of interest, like \acp{GPED}, \acp{PLED}, spike and sharp wave complexes, and triphasic waves, is a critical step in reading an \ac{EEG}. The \ac{ACNS} defines an exhaustive list of \ac{EEG} terms, including background characteristics, which are outlined in \cite{Westhall2015}. Clinicians are well versed in the terminology, but struggle in their ability to accurately match waveforms with appropriate labels \cite{Gerber2008}.
+Annotations start, as shown in Figure \Cref{fig:wulsin_anno}, as waveforms whose variations conform to similar behaviors. Not all annotations are related to medical conditions, as eye blinks and background are often considered to be noise. Differentiating such noise from waveforms of interest, like \acp{GPED}, \acp{PLED}, spike and sharp wave complexes, and triphasic waves, is a critical step in reading an \ac{EEG}. The \ac{ACNS} defines an exhaustive list of \ac{EEG} terms, including background characteristics, which are outlined in \cite{Westhall2015}. Clinicians are well versed in the terminology, but struggle in their ability to accurately match waveforms with appropriate labels \cite{Gerber2008}.
 
 %%%%%%%
 \begin{figure}
 \centering
 \includegraphics[width=0.6\linewidth,keepaspectratio]{wulsin_anno}
-\caption[Annotation example]{Annotations used for the work of Wulsin et al in \cite{Wulsin2011}. Notice the placement of the spike does not need to precede or succeed the sharp wave. \ac{GPED} and \ac{PLED} typically occur over a range of channels making them context dependent.}
+\caption[Annotation Example]{\underline{Annotation example.} Annotations used for the work of Wulsin et al in \cite{Wulsin2011}. Notice the placement of the spike does not need to precede or succeed the sharp wave. \ac{GPED} and \ac{PLED} typically occur over a range of channels making them context dependent.}
 \label{fig:wulsin_anno}
 \end{figure}
 %%%%%%
@@ -87,13 +87,13 @@ In summary, the fundamental technical challenge of training robust algorithms fo
 
 While major research avenues align with clinical applications (sleep, seizure, and various brain disorders), the use of \ac{ML} provides avenues for novel applications as research progresses such as \ac{BCI}, biometric verification, \acp{ERP}, and brain state workloads. Despite the variety of unique classification tasks, they all face similar fundamental performance hurdles. Chiefly among these are the necessary steps of pre-processing to address artifacts and production of acceptable feature sets. Within a given \ac{EEG} recording it can be necessary to address the background waveforms that comprise the majority of the datasets.
 
-\ac{EEG} artifacts are often hard to classify because they appear as waveforms that resemble, Figure \ref{fig:wulsin_anno}, the more critical spikes and sharp waves of seizures \cite{Halford2017} or the natural brain frequency rhythms \cite{Uriguen2015}, Figure \ref{fig:artifactVrhythm}. While artifacts impact clinicians and algorithms, selection of an optimal feature set is unique to the algorithms. This is because feature sets are often paired with the type of \ac{EEG} data being classified. The result is a wide range of potentially useful features consisting of but not limited to \ac{PSD} features \cite{Gui2015}, spatial and temporal features \cite{Mognon2011}, \ac{CEP} feautres \cite{Harati2015a}, auto-regressive parameters \cite{Marcano2018}, and normalized raw data \cite{Acharya2018}.
+\ac{EEG} artifacts are often hard to classify because they appear as waveforms that resemble, Figure \Cref{fig:wulsin_anno}, the more critical spikes and sharp waves of seizures \cite{Halford2017} or the natural brain frequency rhythms \cite{Uriguen2015}, Figure \Cref{fig:artifactVrhythm}. While artifacts impact clinicians and algorithms, selection of an optimal feature set is unique to the algorithms. This is because feature sets are often paired with the type of \ac{EEG} data being classified. The result is a wide range of potentially useful features consisting of but not limited to \ac{PSD} features \cite{Gui2015}, spatial and temporal features \cite{Mognon2011}, \ac{CEP} feautres \cite{Harati2015a}, auto-regressive parameters \cite{Marcano2018}, and normalized raw data \cite{Acharya2018}.
 
 %%%%%%%
 \begin{figure}
 \centering
 \includegraphics[width=0.8\linewidth,keepaspectratio]{artifactVrhythms}
-\caption[Artifact example]{Example of artifacts (b) similarity to the natural rhythms of the human brain (a) used for the work of Uriguen et al in \cite{Uriguen2015}.}
+\caption[Artifact Example]{\underline{Artifact Example.} Example of artifacts (b) similarity to the natural rhythms of the human brain (a) used for the work of Uriguen et al in \cite{Uriguen2015}.}
 \label{fig:artifactVrhythm}
 \end{figure}
 %%%%%%
@@ -110,7 +110,7 @@ A substantial portion of work in this field focuses on correctly identifying and
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.75\linewidth,keepaspectratio]{eeg_seizure_generalized}
-\caption[Example of a generalized seizure EEG]{A segment of an \ac{EEG} recording taken from a subject at the onset of a generalized seizure. Note that after the seizure starts, activity is not uniform across all channels. Image sourced from Tatum and Tatum\cite{Tatum2014}. }
+\caption[Example of a Generalized Seizure EEG]{\underline{Example of a Generalized Seizure EEG.} A segment of an \ac{EEG} recording taken from a subject at the onset of a generalized seizure. Note that after the seizure starts, activity is not uniform across all channels. Image sourced from Tatum and Tatum\cite{Tatum2014}. }
 \label{fig:seizureExample}
 \end{figure}
 %%%%%%%%%%%%%%%%%%
@@ -123,7 +123,7 @@ Sleep state classification labels the transition from wakefulness to \ac{REM} sl
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.75\linewidth,keepaspectratio]{eeg_sleep_N2_sleepSpindles}
-\caption[Example of sleeping EEG with sleep spindles.]{A segment of an \ac{EEG} recording taken from a subject in the second of phase sleep. Note the present of sleep spindes, black arrow, across multiple channels. Image sourced from Tatum and Tatum\cite{Tatum2014}.}
+\caption[Example of Sleep EEG with Sleep Spindles]{\underline{Example of Sleep EEG with Sleep Spindles.} A segment of an \ac{EEG} recording taken from a subject in the second of phase sleep. Note the present of sleep spindes, black arrow, across multiple channels. Image sourced from Tatum and Tatum\cite{Tatum2014}.}
 \label{fig:sleepExample}
 \end{figure}
 %%%%%%%%%%%%%%%%%
@@ -142,7 +142,7 @@ Multiple studies have focused on the use of \acp{EEG} to identify and verify sub
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.75\linewidth,keepaspectratio]{eeg_erp_location}
-\caption[Example of an ERP]{A 2D mapping of the electrodes and their group averaged waveform (solid lines). The standard deviations of the channel averaged are given as the dashed lines. Image sourced from Karamzadeh et al.\cite{Karamzadeh2013}.}
+\caption[Example of an ERP]{\underline{Example of an ERP.} A 2D mapping of the electrodes and their group averaged waveform (solid lines). The standard deviations of the channel averaged are given as the dashed lines. Image sourced from Karamzadeh et al.\cite{Karamzadeh2013}.}
 \label{fig:erpExample}
 \end{figure}
 %%%%%%%%%%%
@@ -159,25 +159,7 @@ Despite the lack of a generalized classifier, the data specific classifiers rely
 
 Unfortunately all these steps are often unique to the type of \ac{EEG} being classified which means there is no well defined protocol of feature set that applies universally. For example, seizure algorithms typically process data in windows on the order of 10s of seconds \cite{Wang2016}. Biometric algorithms utilize channel subsets to verify a subject \cite{Campisi2014}. \acp{BCI} use spatial filters to target the regions of the motor cortex \cite{Schalk2004}. \acp{ERP} focus on the occipital region where recognition of stimulus is triggered \cite{Kindermans2014b}. Things are further complicated by the varying performance within a dataset based upon subject or recording variation seen in \ac{BCI} tasks \cite{Gross2014,Blankertz2007a,Kang2014b}, seizure recordings\cite{Ramgopal2014,Wulsin2011,Page2015}, and even biometric protocols \cite{Armstrong2015,Maiorana2016}. Due to this a comprehensive feature set remains elusive, but data specific feature sets have shown promise when paired with various algorithms.
 
-These approaches leverage knowledge gained from the study of \acp{EEG} which makes them \emph{domain knowledge}. Unfortunately domain knowledge comes from clinicians which means, as outlined previously, there are limits to its impact. It is critical in understanding artifacts and background (Figure \ref{fig:wulsin_anno}), seizures (Figure \ref{fig:generalized_seizure}), and sleep patterns (Figure \ref{fig:sleep_spindle}) \cite{Bodizs2009,Wendt2012}, but clinicians have minimal knowledge specific to biometrics \cite{Paranjape2001}. Thus some approaches are bootstrapped by domain knowledge, but it furthers a Catch-22. Algorithms are made dependent clinician supplied insights when the algorithms task is to provide annotations to assist those same clinicians.
-
-%%%%%%%
-\begin{figure}
-\centering
-\includegraphics[width=0.6\linewidth,keepaspectratio]{generalizedSeizure_small}
-\caption[Sleep Spindle example]{Sleep Spindle example drawn from the text of Tatum\cite{Tatum2014}. Notice the abrupt change in all recorded channels.}
-\label{fig:generalized_seizure}
-\end{figure}
-%%%%%%%
-
-%%%%%%%
-\begin{figure}
-\centering
-\includegraphics[width=0.6\linewidth,keepaspectratio]{sleepSpindles_small}
-\caption[Sleep Spindle example]{Sleep Spindle example drawn from the text of Tatum\cite{Tatum2014}. The black arrow indicates the location of a sleep spindle which is captured across multiple, but not all, channels.}
-\label{fig:sleep_spindle}
-\end{figure}
-%%%%%%
+These approaches leverage knowledge gained from the study of \acp{EEG} which makes them \emph{domain knowledge}. Unfortunately domain knowledge comes from clinicians which means, as outlined previously, there are limits to its impact. It is critical in understanding artifacts and background (Figure \Cref{fig:wulsin_anno}), seizures (Figure \Cref{fig:seizureExample}), and sleep patterns (Figure \Cref{fig:sleepExample}) \cite{Bodizs2009,Wendt2012}, but clinicians have minimal knowledge specific to biometrics \cite{Paranjape2001}. Thus some approaches are bootstrapped by domain knowledge, but it furthers a Catch-22. Algorithms are made dependent clinician supplied insights when the algorithms task is to provide annotations to assist those same clinicians.
 
 Within this loop of clinician annotations driving the development progress of algorithms, is the closed set of available \ac{EEG} datasets. Aside from the \ac{PNET} \cite{Goldberger2000} and \ac{BCI} competition \cite{Blankertz2006a} databases, much of the research is conducted on specific single use datasets \cite{Wulsin2011,Subasi2010,Radha2014}. Furthermore, when the \ac{PNET} database is used it is often the only dataset \cite{Yang2016,Marcel2007a,Fraschini2015,Rodrigues2016}. There are studies that combine datasets, but that they tend to focus on biometric applications \cite{Delpozo-Banos2015}.
 
@@ -213,21 +195,6 @@ From these areas of interest, three research questions were posed:
 \bigskip
 
 By answering these questions, insight into the nature of \acp{IV} and \acp{EEG} was gained. This was possible because similar \acp{IV} work in the speech recognition community produced strong results related to subject verification \cite{Kenny2015}, language classification \cite{Li2013a}, accent detection \cite{Behravan2016}, and speaker age estimation \cite{Bahari2012}. The underlying hypothesis was that \acp{EEG} had a bounded mathematical space similar to speech signals. This space can be exploited by the constraints of the \ac{TVM} which shapes the \acp{IV} producing nuanced classification similar to those seen in speech.
-
-%%%%%%%%%%%%%%%%%
-%\subsection{The Research Motivation}
-
-% This section is really nice and well written but its stuff you've already said before. This is basically restating the motivation laid out in the previous 20-odd pages. So what do I do?
-
-%The reason to carry out this work is the clinical and academic need for annotated \ac{EEG} recordings. A Catch-22 exists in that the best supervised \ac{ML} techniques require a strong foundation of knowledge, consisting of labeled data, to produce results on par with trained clinicians. Without a peer-reviewed training dataset algorithms are unable to adequately annotate unlabeled datasets. The algorithms are beholden to the bias of the clinicians. Clinicians are biased by their training and experience, of which will never be comprehensive for all use cases of \acp{EEG}.
-
-%This lack of universality means ground truth data must be produced for the training of supervised algorithms and clinicians. While clinicians would be the ideal source for this data, their time is better spent with their patients and they lack consistent inter-rater agreement. As supervised \ac{ML} approaches are reliant on annotated data, their performance suffers when they are trained on data that comes from unreliable sources. This suggests a third approach, unsupervised \ac{ML}, is needed to support the continued development of supervised \ac{ML} algorithms and clinicians.
-
-%Unsupervised \ac{ML} is not without its drawbacks, largest among them a dependency on an equitable distribution of data. Fortunately the availability of \ac{EEG} is the easier to address than the availability of accurately annotated \ac{EEG} data. While there have always been numerous publicly accessible datasets, the existence of the \ac{TUHEEG} suggests there many be enough data available to adequately train an unsupervised algorithm. It is through these databases and advanced unsupervised \ac{ML} techniques it is possible to deepen our understanding of \acp{EEG} because the approach is mathematical and free from external sources of bias.
-
-%Part of expanding our \ac{EEG} knowledge centers on formalizing how the data should be processed. A substantial amount of research focuses on finding the best feature-algorithm combination for given classification tasks. This is due to the disparate nature of the conditions, subjects, and study protocols. \acp{IV} are built on \acp{UBM} and \acp{TVM} that strive to constrain the relationships between the natural modes of the data while providing dimensionality reduction. This makes \acp{IV} an enticing option at encapsulating the disparity between datasets while producing transparent decision surfaces.
-
-%From these decision surfaces it should be possible to expand our knowledge of \acp{EEG} through the statistically modeling that produces \acp{IV}. The ability to simultaneously classify and cluster datasets provides the ability to explore the impact of variations in features and training data. Accepting the imperfect nature of unsupervised \ac{ML} means that imperfect results are accepted and encouraged. These edge cases should provide insight into the functionality of \acp{IV} as they are deployed onto a new type of data. From these insights relationships between \ac{EEG} data and features should all be possible helping close the loop on \acp{EEG} annotations.
 
 %%%%%%%%%%%%%%%%%%
 \subsection{The Research Experiments}

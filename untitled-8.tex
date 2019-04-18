@@ -1,0 +1,33 @@
+\documentclass{article}
+ 
+\usepackage{caption}
+\usepackage[normalem]{ulem}
+ 
+\DeclareCaptionFormat{test}{#1#2#3\par}
+\DeclareCaptionLabelFormat{test}{\small\uline{#1~#2}}
+\DeclareCaptionTextFormat{test}{\small\expandafter\uline\expandafter{\expandafter#1}}
+\DeclareCaptionLabelSeparator{test}{\small\uline{:~}}
+\DeclareCaptionFont{test}{\bfseries}
+ 
+\captionsetup[table]{format=hang,labelformat=test,textformat=test,labelseparator=test,labelfont=test,justification=raggedleft,singlelinecheck=false}
+ 
+ 
+\begin{document}
+ 
+\begin{table}\centering
+\caption{A table}
+\begin{tabular}{|c|c|}
+\hline 
+1 & 2\tabularnewline
+\hline 
+3 & 4\tabularnewline
+\hline
+\end{tabular}
+\end{table}
+ 
+\begin{figure}\centering
+\rule{1cm}{1ex}
+\caption{A figure}
+\end{figure}
+ 
+\end{document}
